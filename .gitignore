@@ -1,0 +1,9 @@
+.env
+sessions/
+data/surge_bot.db
+logs/
+__pycache__/
+*.pyc
+*.session
+test_parser.py
+list_folder_channels.py

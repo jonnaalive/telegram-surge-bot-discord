@@ -1,0 +1,55 @@
+# 모니터링 대상 텔레그램 채널 목록
+# "급등 및 급락 폴더" 내 채널들
+
+default_keywords:
+  surge:  # 급등 관련
+    - 급등
+    - 상한가
+    - 폭등
+    - 강세
+    - 돌파
+    - 신고가
+    - 테마
+    - 수급
+    - 매집
+    - surge
+    - rally
+    - breakout
+    - moon
+    - soar
+    - pump
+    - rip
+  drop:  # 급락 관련
+    - 급락
+    - 하한가
+    - 폭락
+    - 약세
+    - 이탈
+    - 신저가
+    - crash
+    - dump
+    - plunge
+    - tank
+    - sell-off
+    - bear
+
+channels:
+  - name: "글로벌 Watch"
+    url: "awake_globalwatch"
+    keywords: []
+
+  - name: "미국주식 퍼스트콜"
+    url: "americastockfirstcall"
+    keywords: []
+
+  - name: "급등일보 미국주식"
+    url: "FastStockNewsUSA"
+    keywords: []
+
+  - name: "미미의 신고가"
+    url: "mimi_ATH"
+    keywords: []
+
+  - name: "AWAKE 52주 신고가"
+    url: "awake_realtimeCheck"
+    keywords: []
