@@ -8,6 +8,10 @@ on:
     - cron: '0 12 * * *'
   workflow_dispatch:  # 수동 실행
 
+env:
+  DB_CACHE_KEY: surge-db-${{ github.ref_name }}-${{ github.run_id }}
+  DB_CACHE_RESTORE: surge-db-${{ github.ref_name }}-
+
 jobs:
   batch-collect:
     if: github.event.schedule != '0 12 * * *'
@@ -30,7 +34,7 @@ jobs:
 
       - name: Create .env
         run: |
-          cat << EOF > .env
+          cat << 'EOF' > .env
           TELEGRAM_API_ID=${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH=${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_PHONE=${{ secrets.TELEGRAM_PHONE }}
@@ -40,15 +44,15 @@ jobs:
           EOF
 
       - name: Restore DB
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: data/surge_bot.db
-          key: surge-db-${{ github.run_id }}
-          restore-keys: surge-db-
+          key: ${{ env.DB_CACHE_KEY }}
+          restore-keys: ${{ env.DB_CACHE_RESTORE }}
 
       - name: Run batch collection
         run: |
-          mkdir -p logs
+          mkdir -p logs data
           python main.py --batch --hours 1
         timeout-minutes: 5
 
@@ -57,7 +61,7 @@ jobs:
         if: always()
         with:
           path: data/surge_bot.db
-          key: surge-db-${{ github.run_id }}
+          key: ${{ env.DB_CACHE_KEY }}
 
   daily-report:
     if: github.event.schedule == '0 12 * * *'
@@ -80,7 +84,7 @@ jobs:
 
       - name: Create .env
         run: |
-          cat << EOF > .env
+          cat << 'EOF' > .env
           TELEGRAM_API_ID=${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH=${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_PHONE=${{ secrets.TELEGRAM_PHONE }}
@@ -90,15 +94,22 @@ jobs:
           EOF
 
       - name: Restore DB
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: data/surge_bot.db
-          key: surge-db-
-          restore-keys: surge-db-
+          key: ${{ env.DB_CACHE_KEY }}
+          restore-keys: ${{ env.DB_CACHE_RESTORE }}
 
       - name: Run batch + report
         run: |
-          mkdir -p logs
+          mkdir -p logs data
           python main.py --batch --hours 12
           python report.py
         timeout-minutes: 10
+
+      - name: Save DB
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: data/surge_bot.db
+          key: ${{ env.DB_CACHE_KEY }}
