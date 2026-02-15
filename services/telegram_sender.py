@@ -103,9 +103,10 @@ class TelegramSender:
                 raise
 
     async def send_text(self, text: str):
-        """단순 텍스트 메시지 발송."""
+        """단순 텍스트 메시지 발송 (HTML 지원)."""
         for chunk in self._split_message(text):
             await self.bot.send_message(
                 chat_id=self.chat_id,
                 text=chunk,
+                parse_mode=ParseMode.HTML,
             )

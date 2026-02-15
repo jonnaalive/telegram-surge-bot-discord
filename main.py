@@ -18,6 +18,7 @@ from database.db import Database
 from services.channel_listener import ChannelListener
 from services.stock_parser import StockParser
 from services.ai_analyzer import AIAnalyzer
+from services.telegram_sender import TelegramSender
 from services.filter import filter_analyses
 from models.schemas import ChannelMessage
 
@@ -43,6 +44,7 @@ class SurgeBot:
         )
         self.parser = StockParser(self.settings.ticker_map_path)
         self.analyzer = AIAnalyzer(self.settings.claude)
+        self.sender = TelegramSender(self.settings.telegram_bot)
 
     async def start(self):
         await self.db.connect()
@@ -104,6 +106,23 @@ class SurgeBot:
                     "[HIGH SCORE] %s (%s) score=%.1f theme=%s (%s)",
                     a.stock_name, a.ticker, a.watch_score, a.theme, a.theme_type,
                 )
+            await self._send_realtime_alert(high_score, message)
+
+    async def _send_realtime_alert(self, analyses, message: ChannelMessage):
+        """고점수 종목 실시간 텔레그램 알림."""
+        now = datetime.now(KST).strftime("%H:%M")
+        lines = [f"🚨 <b>실시간 급등/급락 감지</b> ({now})"]
+        lines.append(f"📡 {message.channel_name}")
+        lines.append("")
+        for a in analyses:
+            icon = "📈" if a.direction in ("급등", "surge", "up") else "📉"
+            lines.append(f"{icon} <b>{a.stock_name}</b> ({a.ticker}/{a.market}) ⭐ {a.watch_score}")
+            lines.append(f"└ {a.reason[:100]}")
+        try:
+            await self.sender.send_text("\n".join(lines))
+            logger.info("Realtime alert sent: %d stocks", len(analyses))
+        except Exception as e:
+            logger.error("Failed to send realtime alert: %s", e)
 
     async def run_realtime(self):
         """실시간 리스너 모드."""
