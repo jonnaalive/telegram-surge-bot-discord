@@ -28,10 +28,9 @@ class TelegramBotConfig:
 
 
 @dataclass(frozen=True)
-class ClaudeConfig:
+class GeminiConfig:
     api_key: str
-    model: str = "claude-sonnet-4-5-20250929"
-    max_tokens: int = 4096
+    model: str = "gemini-2.5-flash"
 
 
 @dataclass(frozen=True)
@@ -51,7 +50,7 @@ class ChannelDef:
 class Settings:
     telegram_user: TelegramUserConfig
     telegram_bot: TelegramBotConfig
-    claude: ClaudeConfig
+    gemini: GeminiConfig
     obsidian: ObsidianConfig
     channels: list[ChannelDef]
     watch_score_threshold: float
@@ -87,8 +86,8 @@ class Settings:
                 bot_token=os.environ["TELEGRAM_BOT_TOKEN"],
                 report_chat_id=os.environ["TELEGRAM_REPORT_CHAT_ID"],
             ),
-            claude=ClaudeConfig(
-                api_key=os.environ["ANTHROPIC_API_KEY"],
+            gemini=GeminiConfig(
+                api_key=os.environ["GEMINI_API_KEY"],
             ),
             obsidian=ObsidianConfig(
                 vault_path=Path(os.environ.get("OBSIDIAN_VAULT_PATH", ".")),

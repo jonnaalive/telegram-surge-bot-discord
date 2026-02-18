@@ -43,7 +43,7 @@ class SurgeBot:
             self.settings.telegram_user, self.settings.channels
         )
         self.parser = StockParser(self.settings.ticker_map_path)
-        self.analyzer = AIAnalyzer(self.settings.claude)
+        self.analyzer = AIAnalyzer(self.settings.gemini)
         self.sender = TelegramSender(self.settings.telegram_bot)
 
     async def start(self):

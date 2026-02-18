@@ -50,7 +50,7 @@ async def generate_report(report_date: str):
         logger.info("Found %d analyses for %s", len(all_analyses), report_date)
 
         # 2. AI 시장 요약 생성
-        analyzer = AIAnalyzer(settings.claude)
+        analyzer = AIAnalyzer(settings.gemini)
         market_summary = analyzer.generate_daily_summary(all_analyses)
 
         # 3. 채널 통계

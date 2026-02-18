@@ -1,4 +1,4 @@
-"""Claude API를 통한 종목 분석."""
+"""Gemini API를 통한 종목 분석."""
 
 from __future__ import annotations
 
@@ -6,20 +6,19 @@ import json
 import logging
 import re
 
-import anthropic
+import google.generativeai as genai
 
 from config.prompts import STOCK_ANALYSIS_PROMPT, DAILY_SUMMARY_PROMPT
-from config.settings import ClaudeConfig
+from config.settings import GeminiConfig
 from models.schemas import ChannelMessage, StockMention, StockAnalysis
 
 logger = logging.getLogger(__name__)
 
 
 class AIAnalyzer:
-    def __init__(self, config: ClaudeConfig):
-        self.client = anthropic.Anthropic(api_key=config.api_key)
-        self.model = config.model
-        self.max_tokens = config.max_tokens
+    def __init__(self, config: GeminiConfig):
+        genai.configure(api_key=config.api_key)
+        self.model = genai.GenerativeModel(config.model)
 
     def _extract_json(self, text: str) -> list[dict]:
         """응답에서 JSON 배열을 추출."""
@@ -40,7 +39,7 @@ class AIAnalyzer:
         message: ChannelMessage,
         mentions: list[StockMention],
     ) -> list[StockAnalysis]:
-        """메시지와 추출된 종목 정보를 Claude로 분석."""
+        """메시지와 추출된 종목 정보를 Gemini로 분석."""
         if not mentions:
             return []
 
@@ -57,12 +56,8 @@ class AIAnalyzer:
         )
 
         try:
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=self.max_tokens,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            content = response.content[0].text
+            response = self.model.generate_content(prompt)
+            content = response.text
             parsed = self._extract_json(content)
 
             analyses = []
@@ -83,10 +78,10 @@ class AIAnalyzer:
             return analyses
 
         except json.JSONDecodeError as e:
-            logger.error("Failed to parse Claude response JSON: %s", e)
+            logger.error("Failed to parse Gemini response JSON: %s", e)
             return []
-        except anthropic.APIError as e:
-            logger.error("Claude API error: %s", e)
+        except Exception as e:
+            logger.error("Gemini API error: %s", e)
             return []
 
     def generate_daily_summary(self, analyses: list[StockAnalysis]) -> str:
@@ -107,12 +102,8 @@ class AIAnalyzer:
         )
 
         try:
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=2048,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            return response.content[0].text
-        except anthropic.APIError as e:
-            logger.error("Claude API error (daily summary): %s", e)
+            response = self.model.generate_content(prompt)
+            return response.text
+        except Exception as e:
+            logger.error("Gemini API error (daily summary): %s", e)
             return "시장 요약 생성에 실패했습니다."
