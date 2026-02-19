@@ -6,7 +6,7 @@ import json
 import logging
 import re
 
-import google.generativeai as genai
+from google import genai
 
 from config.prompts import STOCK_ANALYSIS_PROMPT, DAILY_SUMMARY_PROMPT
 from config.settings import GeminiConfig
@@ -17,8 +17,8 @@ logger = logging.getLogger(__name__)
 
 class AIAnalyzer:
     def __init__(self, config: GeminiConfig):
-        genai.configure(api_key=config.api_key)
-        self.model = genai.GenerativeModel(config.model)
+        self.client = genai.Client(api_key=config.api_key)
+        self.model_name = config.model
 
     def _extract_json(self, text: str) -> list[dict]:
         """응답에서 JSON 배열을 추출."""
@@ -56,7 +56,9 @@ class AIAnalyzer:
         )
 
         try:
-            response = self.model.generate_content(prompt)
+            response = self.client.models.generate_content(
+                model=self.model_name, contents=prompt
+            )
             content = response.text
             parsed = self._extract_json(content)
 
@@ -102,7 +104,9 @@ class AIAnalyzer:
         )
 
         try:
-            response = self.model.generate_content(prompt)
+            response = self.client.models.generate_content(
+                model=self.model_name, contents=prompt
+            )
             return response.text
         except Exception as e:
             logger.error("Gemini API error (daily summary): %s", e)
