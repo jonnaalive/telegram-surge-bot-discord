@@ -2,8 +2,6 @@ name: Surge Bot
 
 on:
   schedule:
-    # 30분마다 배치 수집 (UTC 기준, KST = UTC+9)
-    - cron: '*/30 * * * *'
     # 매일 KST 21:00 (UTC 12:00) 일일 리포트
     - cron: '0 12 * * *'
   workflow_dispatch:  # 수동 실행
@@ -13,58 +11,7 @@ env:
   DB_CACHE_RESTORE: surge-db-${{ github.ref_name }}-
 
 jobs:
-  batch-collect:
-    if: github.event.schedule != '0 12 * * *'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          cache: 'pip'
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Restore session
-        run: |
-          mkdir -p sessions
-          echo "${{ secrets.TELEGRAM_SESSION }}" | base64 -d > sessions/surge_bot.session
-
-      - name: Create .env
-        run: |
-          cat << 'EOF' > .env
-          TELEGRAM_API_ID=${{ secrets.TELEGRAM_API_ID }}
-          TELEGRAM_API_HASH=${{ secrets.TELEGRAM_API_HASH }}
-          TELEGRAM_PHONE=${{ secrets.TELEGRAM_PHONE }}
-          TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_REPORT_CHAT_ID=${{ secrets.TELEGRAM_REPORT_CHAT_ID }}
-          GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
-          EOF
-
-      - name: Restore DB
-        uses: actions/cache/restore@v4
-        with:
-          path: data/surge_bot.db
-          key: ${{ env.DB_CACHE_KEY }}
-          restore-keys: ${{ env.DB_CACHE_RESTORE }}
-
-      - name: Run batch collection
-        run: |
-          mkdir -p logs data
-          python main.py --batch --hours 1
-        timeout-minutes: 5
-
-      - name: Save DB
-        uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: data/surge_bot.db
-          key: ${{ env.DB_CACHE_KEY }}
-
   daily-report:
-    if: github.event.schedule == '0 12 * * *'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -103,7 +50,7 @@ jobs:
       - name: Run batch + report
         run: |
           mkdir -p logs data
-          python main.py --batch --hours 12
+          python main.py --batch --hours 24
           python report.py
         timeout-minutes: 10
 

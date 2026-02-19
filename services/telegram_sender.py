@@ -46,8 +46,13 @@ class TelegramSender:
                 lines.append(
                     f"{icon} <b>{s.stock_name}</b> ({s.ticker}/{s.market}) ⭐ {s.watch_score}"
                 )
-                lines.append(f"└ {s.reason[:80]}")
-            lines.append("")
+                lines.append(f"  테마: {s.theme}")
+                lines.append(f"  사유: {s.reason[:200]}")
+                if s.theme_reasoning:
+                    lines.append(f"  분석: {s.theme_reasoning[:200]}")
+                if s.risks:
+                    lines.append(f"  리스크: {', '.join(s.risks[:3])}")
+                lines.append("")
 
         # 일시적 테마
         if report.temporary_stocks:
@@ -57,8 +62,13 @@ class TelegramSender:
                 lines.append(
                     f"{icon} <b>{s.stock_name}</b> ({s.ticker}/{s.market}) ⭐ {s.watch_score}"
                 )
-                lines.append(f"└ {s.reason[:80]}")
-            lines.append("")
+                lines.append(f"  테마: {s.theme}")
+                lines.append(f"  사유: {s.reason[:200]}")
+                if s.theme_reasoning:
+                    lines.append(f"  분석: {s.theme_reasoning[:200]}")
+                if s.risks:
+                    lines.append(f"  리스크: {', '.join(s.risks[:3])}")
+                lines.append("")
 
         # 통계
         lines.append(
