@@ -9,6 +9,7 @@ import re
 from google import genai
 
 from config.prompts import STOCK_ANALYSIS_PROMPT, DAILY_SUMMARY_PROMPT
+from llm_tracker import track_gemini
 from config.settings import GeminiConfig
 from models.schemas import ChannelMessage, StockMention, StockAnalysis
 
@@ -59,6 +60,7 @@ class AIAnalyzer:
             response = self.client.models.generate_content(
                 model=self.model_name, contents=prompt
             )
+            track_gemini("telegram-surge-bot", response, model=self.model_name)
             content = response.text
             parsed = self._extract_json(content)
 
@@ -107,6 +109,7 @@ class AIAnalyzer:
             response = self.client.models.generate_content(
                 model=self.model_name, contents=prompt
             )
+            track_gemini("telegram-surge-bot", response, model=self.model_name)
             return response.text
         except Exception as e:
             logger.error("Gemini API error (daily summary): %s", e)

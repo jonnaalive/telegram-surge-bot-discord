@@ -112,6 +112,9 @@ def main():
 
     asyncio.run(generate_report(report_date))
 
+    from heartbeat import send_heartbeat_sync
+    send_heartbeat_sync("telegram-surge-bot")
+
 
 if __name__ == "__main__":
     main()

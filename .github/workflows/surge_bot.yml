@@ -38,6 +38,8 @@ jobs:
           TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_REPORT_CHAT_ID=${{ secrets.TELEGRAM_REPORT_CHAT_ID }}
           GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
+          MONITOR_URL=${{ secrets.MONITOR_URL }}
+          MONITOR_API_KEY=${{ secrets.MONITOR_API_KEY }}
           EOF
 
       - name: Restore DB
