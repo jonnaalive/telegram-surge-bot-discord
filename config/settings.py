@@ -84,8 +84,8 @@ class Settings:
                 session_name=os.environ.get("SESSION_NAME", "surge_bot"),
             ),
             telegram_bot=TelegramBotConfig(
-                bot_token=os.environ["TELEGRAM_BOT_TOKEN"],
-                report_chat_id=os.environ["TELEGRAM_REPORT_CHAT_ID"],
+                bot_token=os.environ.get("TELEGRAM_BOT_TOKEN", ""),
+                report_chat_id=os.environ.get("TELEGRAM_REPORT_CHAT_ID", ""),
             ),
             gemini=GeminiConfig(
                 api_key=os.environ["GEMINI_API_KEY"],
