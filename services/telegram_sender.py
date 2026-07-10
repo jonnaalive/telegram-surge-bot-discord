@@ -23,7 +23,8 @@ class TelegramSender:
         self.bot = Bot(token=config.bot_token)
         self.chat_id = config.report_chat_id
 
-    def _build_report_text(self, report: DailyReport) -> str:
+    @staticmethod
+    def _build_report_text(report: DailyReport) -> str:
         dt = datetime.strptime(report.date, "%Y-%m-%d")
         weekday = WEEKDAY_KR[dt.weekday()]
 

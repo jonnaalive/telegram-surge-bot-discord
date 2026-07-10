@@ -19,6 +19,7 @@ from services.channel_listener import ChannelListener
 from services.stock_parser import StockParser
 from services.ai_analyzer import AIAnalyzer
 from services.telegram_sender import TelegramSender
+from services.discord_sender import DiscordSender
 from services.filter import filter_analyses
 from models.schemas import ChannelMessage
 
@@ -44,7 +45,12 @@ class SurgeBot:
         )
         self.parser = StockParser(self.settings.ticker_map_path)
         self.analyzer = AIAnalyzer(self.settings.gemini)
-        self.sender = TelegramSender(self.settings.telegram_bot)
+        if self.settings.discord_webhook_url:
+            self.sender = DiscordSender(
+                self.settings.discord_webhook_url, username="업앤다운봇"
+            )
+        else:
+            self.sender = TelegramSender(self.settings.telegram_bot)
 
     async def start(self):
         await self.db.connect()

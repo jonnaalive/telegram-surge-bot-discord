@@ -58,6 +58,7 @@ class Settings:
     log_level: str
     db_path: Path
     ticker_map_path: Path
+    discord_webhook_url: str = ""
 
     @classmethod
     def load(cls) -> "Settings":
@@ -103,6 +104,7 @@ class Settings:
             log_level=os.environ.get("LOG_LEVEL", "INFO"),
             db_path=BASE_DIR / "data" / "surge_bot.db",
             ticker_map_path=BASE_DIR / "data" / "ticker_map.json",
+            discord_webhook_url=os.environ.get("DISCORD_WEBHOOK_URL", ""),
         )
 
 

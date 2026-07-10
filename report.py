@@ -19,6 +19,7 @@ from database.db import Database
 from services.ai_analyzer import AIAnalyzer
 from services.report_builder import build_daily_report
 from services.telegram_sender import TelegramSender
+from services.discord_sender import DiscordSender
 from services.obsidian_writer import ObsidianWriter
 
 KST = timezone(timedelta(hours=9))
@@ -65,10 +66,13 @@ async def generate_report(report_date: str):
             threshold=settings.watch_score_threshold,
         )
 
-        # 5. 텔레그램 발송
-        sender = TelegramSender(settings.telegram_bot)
+        # 5. 리포트 발송 (DISCORD_WEBHOOK_URL 있으면 Discord, 없으면 텔레그램)
+        if settings.discord_webhook_url:
+            sender = DiscordSender(settings.discord_webhook_url, username="업앤다운봇")
+        else:
+            sender = TelegramSender(settings.telegram_bot)
         await sender.send_report(report)
-        logger.info("Telegram report sent for %s", report_date)
+        logger.info("Report sent for %s", report_date)
 
         # 6. 옵시디언 기록
         writer = ObsidianWriter(settings.obsidian)
