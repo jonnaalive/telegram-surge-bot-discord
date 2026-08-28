@@ -1,0 +1,352 @@
+[
+  {
+    "ticker": "CRWD",
+    "company": "CrowdStrike Holdings",
+    "detected_at": "2026-08-28T04:03:02.842086",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "클라우드 기반 사이버 보안 솔루션의 수요 증가와 견고한 실적 성장세를 바탕으로 역사적 신고가를 경신하며 20.1% 급등했습니다.",
+    "theme": "사이버 보안, 클라우드 보안, SaaS",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "NVDA",
+    "company": "엔비디아",
+    "detected_at": "2026-08-28T04:03:19.742627",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "강력한 실적 전망 발표에 힘입어 AI 관련 성장세 둔화 우려를 불식시키며, 시가총액 4,420억 달러 증가 및 8.7% 급등을 기록했습니다.",
+    "theme": "AI반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-08-28T08:07:22.111808",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "당일 외국인 순매도(-3.4%)에도 불구하고, AI 반도체 시장의 핵심인 HBM(고대역폭 메모리)에 대한 구조적 수요 증가 기대감과 전반적인 메모리 반도체 업황 회복 전망이 기관 및 개인 투자자들의 강한 매수세를 이끌며 급등한 것으로 분석됩니다.",
+    "theme": "AI반도체, HBM, 메모리 반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "MU",
+    "company": "마이크론",
+    "detected_at": "2026-08-28T08:07:22.111820",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 연산에 필수적인 고성능 메모리(HBM) 수요 폭증과 전반적인 DRAM 및 낸드(NAND) 플래시 메모리 시장의 회복 기대감이 마이크론의 실적 전망을 밝게 하며 주가 급등을 견인했습니다.",
+    "theme": "AI반도체, HBM, 메모리 반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "192820",
+    "company": "코스맥스",
+    "detected_at": "2026-08-28T08:06:14.069041",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 최대 화장품 ODM 기업으로서, 중국 시장 회복세 및 미국/동남아 시장 확장에 힘입어 견조한 실적 성장이 전망됩니다. R&D 역량을 바탕으로 혁신적인 제품 개발도 지속하고 있습니다.",
+    "theme": "화장품 (K-Beauty, ODM/OEM)",
+    "watch_score": 8.8
+  },
+  {
+    "ticker": "MSFT",
+    "company": "마이크로소프트",
+    "detected_at": "2026-08-28T04:03:19.742634",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "한 달 전 4,500억 달러 규모의 시가총액 하루 상승을 기록하며, 빅테크 기업으로서 AI 관련 기대감 및 견조한 실적을 반영했습니다.",
+    "theme": "빅테크, AI 소프트웨어/클라우드",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "161890",
+    "company": "한국콜마",
+    "detected_at": "2026-08-28T08:06:14.069031",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "K-뷰티 글로벌 확산 및 ODM/OEM 경쟁력 강화로 인한 실적 성장 기대. 특히 북미 및 신흥 시장에서의 주문 증가가 긍정적입니다.",
+    "theme": "화장품 (K-Beauty, ODM/OEM)",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "003010",
+    "company": "혜인",
+    "detected_at": "2026-08-28T08:06:14.069048",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "건설기계 유통 사업 외에 인공지능(AI) 데이터센터 관련 전력 솔루션 및 비상 발전기 공급 사업 확장 기대. AI 산업 성장에 따른 데이터센터 인프라 투자 증가가 핵심 동력입니다.",
+    "theme": "AI 데이터센터 (전력 솔루션, 인프라)",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "241710",
+    "company": "코스메카코리아",
+    "detected_at": "2026-08-28T08:06:57.000315",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "K-뷰티 시장 확대 및 특히 북미 시장 성장에 대한 기대감이 반영되어 역사적 신고가를 기록했습니다.",
+    "theme": "K-뷰티, 화장품 ODM/OEM",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "092730",
+    "company": "네오팜",
+    "detected_at": "2026-08-28T08:06:57.000336",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "민감성 피부 전문 더마 코스메틱 시장의 성장과 아토팜 등 주요 브랜드의 견조한 실적에 힘입어 52주 신고가를 기록했습니다.",
+    "theme": "더마 코스메틱, 민감성 피부, K-뷰티 (특정 분야)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "001450",
+    "company": "현대해상",
+    "detected_at": "2026-08-28T08:06:57.000345",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "금융 섹터 밸류업 프로그램의 핵심 수혜 기대감과 더불어 안정적인 보험 손익 개선에 힘입어 역사적 신고가를 기록했습니다.",
+    "theme": "밸류업 프로그램, 보험, 금융",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "078930",
+    "company": "GS",
+    "detected_at": "2026-08-28T08:06:57.000347",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "대표적인 지주사로서 밸류업 프로그램에 대한 강한 기대감과 주요 자회사들의 실적 개선이 동반되며 역사적 신고가를 달성했습니다.",
+    "theme": "밸류업 프로그램, 지주사",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "042700",
+    "company": "한미반도체",
+    "detected_at": "2026-08-28T08:08:26.234529",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "당일 1.4% 하락했음에도 불구하고 투신권의 순매수가 유입되었습니다. 이는 HBM 관련 장비 기업으로서 장기적인 관점에서 저가 매수세가 유입된 것으로 분석됩니다.",
+    "theme": "HBM (고대역폭 메모리), AI반도체 장비",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "096530",
+    "company": "씨젠",
+    "detected_at": "2026-08-28T08:06:14.069051",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "팬데믹 이후 진단시장의 재편과 함께, 독자적인 분자진단 기술력을 바탕으로 비코로나 진단 분야 포트폴리오를 확장하며 안정적인 성장이 기대됩니다. 신규 플랫폼 출시 및 글로벌 파트너십 강화도 긍정적입니다.",
+    "theme": "의료기기 (분자진단, 바이오)",
+    "watch_score": 7.8
+  },
+  {
+    "ticker": "302440",
+    "company": "SK바이오사이언스",
+    "detected_at": "2026-08-28T04:03:32.340884",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 최대 거래량을 돌파하며 투자자들의 관심이 집중되고 있으며, 이는 잠재적인 주가 상승 기대로 이어지고 있습니다.",
+    "theme": "바이오",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "123330",
+    "company": "제닉",
+    "detected_at": "2026-08-28T08:06:14.069044",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "하이드로겔 마스크팩 등 고기능성 마스크팩 시장에서의 기술력과 자체 브랜드 성장 기대. 중국 등 아시아 시장에서의 ODM/OEM 수요 증가도 긍정적입니다.",
+    "theme": "화장품 (K-Beauty, 마스크팩, ODM/OEM)",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "001210",
+    "company": "금호전기",
+    "detected_at": "2026-08-28T08:06:14.069055",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "정부의 첨단 산업 육성 정책인 '5극3특' (예: 반도체, 미래차, 바이오, 이차전지, 디스플레이 등 5대 신산업 분야와 차세대 통신, 양자 등 3대 특화 기술) 수혜 기업으로 부각되며, 관련 핵심 부품 공급 또는 기술 개발 참여 기대.",
+    "theme": "정부 정책 수혜 (첨단 산업, 미래 기술)",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "003350",
+    "company": "한국화장품제조",
+    "detected_at": "2026-08-28T08:06:57.000339",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "K-뷰티 시장 전반의 회복세와 화장품 섹터의 강세에 힘입어 52주 신고가를 달성했습니다.",
+    "theme": "K-뷰티, 화장품 제조",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "062160",
+    "company": "골프존홀딩스",
+    "detected_at": "2026-08-28T08:06:57.000343",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "지주회사로서 '밸류업 프로그램'에 대한 기대감과 자회사 골프존의 견조한 실적 개선이 복합적으로 작용하여 52주 신고가를 달성했습니다.",
+    "theme": "밸류업 프로그램, 지주사, 레저/스크린골프",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "066970",
+    "company": "엘앤에프",
+    "detected_at": "2026-08-28T08:08:26.234535",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "투신과 연기금의 쌍끌이 순매수 유입에 힘입어 주가가 3.8% 상승했습니다. 2차전지 소재 산업의 중장기 성장 기대감이 반영된 것으로 보입니다.",
+    "theme": "2차전지, 양극재",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "080580",
+    "company": "오킨스전자",
+    "detected_at": "2026-08-28T08:08:26.234547",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "투신권의 순매수 유입으로 주가가 4.8% 급등했습니다. 반도체 테스트 소켓 전문 기업으로, HBM 등 고성능 반도체 수요 증가에 따른 수혜 기대감이 반영된 것으로 풀이됩니다.",
+    "theme": "반도체 테스트 소켓, HBM, AI반도체",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "089860",
+    "company": "롯데렌탈",
+    "detected_at": "2026-08-28T08:06:57.000358",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "렌탈 시장의 꾸준한 성장과 중고차 사업 확대, 그리고 밸류업 프로그램에 따른 기업가치 재평가 기대감이 복합적으로 작용하여 52주 신고가를 기록했습니다.",
+    "theme": "밸류업 프로그램, 렌탈, 모빌리티",
+    "watch_score": 7.2
+  },
+  {
+    "ticker": "280360",
+    "company": "롯데웰푸드",
+    "detected_at": "2026-08-28T08:06:14.069058",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "비용 효율화 및 해외 사업 호조에 힘입어 견조한 영업이익 및 순이익 증가. 건강기능식품 및 대체육 등 신사업 부문 성장도 긍정적으로 작용.",
+    "theme": "소비재 (식품, 건강기능식품)",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "068930",
+    "company": "메가스터디",
+    "detected_at": "2026-08-28T08:06:57.000350",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "지주사로서 밸류업 프로그램 수혜 기대감과 자회사 메가스터디교육의 견조한 실적 호조가 주가에 긍정적으로 작용하여 52주 신고가를 기록했습니다.",
+    "theme": "밸류업 프로그램, 지주사, 교육",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "005180",
+    "company": "빙그레",
+    "detected_at": "2026-08-28T08:06:57.000354",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "안정적인 내수 시장 기반과 해외 사업 성장, 그리고 밸류업 프로그램에 따른 기업가치 재평가 기대감으로 52주 신고가를 기록했습니다.",
+    "theme": "밸류업 프로그램, 음식료, 내수소비",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "002990",
+    "company": "금호건설",
+    "detected_at": "2026-08-28T08:06:57.000360",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "주택 경기 회복 기대감과 공공/민간 수주 증가, 해외 사업 확대 기대감 등이 반영되어 52주 신고가를 달성했습니다.",
+    "theme": "건설, 주택, SOC",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "017670",
+    "company": "SK텔레콤",
+    "detected_at": "2026-08-28T08:07:22.111814",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매도(-1.2%)에도 불구하고, AI 컴퍼니 전환을 통한 신사업 성장 기대감, 안정적인 배당 수익률에 기반한 주주환원 정책 강화, 또는 AI 데이터센터 등 비통신 분야의 실적 개선 기대감이 주가를 견인하며 급등했을 수 있습니다.",
+    "theme": "통신, 5G, AI, 플랫폼",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "122450",
+    "company": "예스티",
+    "detected_at": "2026-08-28T08:08:26.234540",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "연기금과 투신의 순매수세가 유입되며 주가가 5.8% 급등했습니다. 반도체 전공정 장비 및 디스플레이 장비 전문 기업으로, HBM 관련 장비나 차세대 디스플레이 투자 기대감이 작용한 것으로 추정됩니다.",
+    "theme": "반도체 장비, 디스플레이 장비",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "237690",
+    "company": "에스티팜",
+    "detected_at": "2026-08-28T08:08:26.234545",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "당일 0.8% 하락했음에도 투신권의 순매수가 유입되었습니다. mRNA 및 올리고 핵산 치료제 CMO/CDMO 전문 기업으로, 바이오 섹터 내 성장 기대감에 따른 장기적 매수세로 추정됩니다.",
+    "theme": "바이오, CMO/CDMO, mRNA, 올리고 핵산 치료제",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "001940",
+    "company": "KISCO홀딩스",
+    "detected_at": "2026-08-28T08:06:57.000356",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "저PBR 지주사로서 정부의 밸류업 프로그램 정책 효과에 대한 기대감으로 52주 신고가를 달성했습니다.",
+    "theme": "밸류업 프로그램, 지주사",
+    "watch_score": 6.8
+  },
+  {
+    "ticker": "317400",
+    "company": "자이에스앤디",
+    "detected_at": "2026-08-28T08:06:57.000363",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "GS건설 자회사로서 건설 및 부동산 서비스 사업의 성장이 부각되며 주택 경기 회복에 대한 수혜로 52주 신고가를 기록했습니다.",
+    "theme": "건설, 부동산 서비스, 주택 (GS건설 계열)",
+    "watch_score": 6.8
+  },
+  {
+    "ticker": "006380",
+    "company": "KPX홀딩스",
+    "detected_at": "2026-08-28T08:06:57.000352",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "지주회사로서 정부의 밸류업 프로그램에 따른 기업가치 제고 기대감이 반영되며 52주 신고가를 달성했습니다.",
+    "theme": "밸류업 프로그램, 지주사",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "090430",
+    "company": "아모레퍼시픽",
+    "detected_at": "2026-08-28T08:08:26.234542",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "연기금과 투신의 순매수세가 유입되며 주가가 5.7% 급등했습니다. K-뷰티 글로벌화 및 면세점 채널 회복 기대감, 신제품 효과 등이 반영된 것으로 보입니다.",
+    "theme": "화장품, K-뷰티, 소비재",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "039290",
+    "company": "KPX홀딩스",
+    "detected_at": "2026-08-28T08:06:14.069073",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "지주회사로서 자회사 KPX케미칼 등 주요 화학 계열사의 실적 개선 기대. 또는 지주회사 전환 및 지배구조 개편 관련 이슈로 단기적인 관심 유입.",
+    "theme": "지주회사 / 화학 산업",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "126340",
+    "company": "비나텍",
+    "detected_at": "2026-08-28T08:08:26.234558",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "투신과 연기금의 순매도세로 주가가 4.9% 하락했습니다. 슈퍼커패시터 및 연료전지 소재 부품 전문 기업으로, 성장 기대감은 있으나 단기적인 실적 불확실성 또는 차익 실현 매물이 출회된 것으로 보입니다.",
+    "theme": "슈퍼커패시터, 연료전지, 수소에너지",
+    "watch_score": 6.0
+  }
+]
