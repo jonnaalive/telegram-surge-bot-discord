@@ -9,6 +9,7 @@ Usage:
 
 import asyncio
 import argparse
+import json
 import logging
 import sys
 from datetime import datetime, timedelta, timezone
@@ -64,6 +65,25 @@ async def generate_report(report_date: str):
             market_summary=market_summary,
             channel_stats=channel_stats,
             threshold=settings.watch_score_threshold,
+        )
+
+        signals = [
+            {
+                "ticker": stock.ticker,
+                "company": stock.stock_name,
+                "detected_at": stock.analyzed_at.isoformat(),
+                "source_bot": "surge",
+                "signal": "price_surge" if stock.direction == "급등" else "price_drop",
+                "summary": stock.reason,
+                "theme": stock.theme,
+                "watch_score": stock.watch_score,
+            }
+            for stock in report.structural_stocks + report.temporary_stocks
+        ]
+        Path("data").mkdir(exist_ok=True)
+        Path("data/latest_signals.json").write_text(
+            json.dumps(signals, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
         )
 
         # 5. 리포트 발송 (DISCORD_WEBHOOK_URL 있으면 Discord, 없으면 텔레그램)
