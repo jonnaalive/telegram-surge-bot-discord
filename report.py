@@ -67,7 +67,7 @@ async def generate_report(report_date: str):
             threshold=settings.watch_score_threshold,
         )
 
-        signals = [
+        new_signals = [
             {
                 "ticker": stock.ticker,
                 "company": stock.stock_name,
@@ -80,9 +80,23 @@ async def generate_report(report_date: str):
             }
             for stock in report.structural_stocks + report.temporary_stocks
         ]
-        Path("data").mkdir(exist_ok=True)
-        Path("data/latest_signals.json").write_text(
-            json.dumps(signals, ensure_ascii=False, indent=2) + "\n",
+        signals_path = Path("data/latest_signals.json")
+        existing = []
+        if signals_path.exists():
+            try:
+                existing = json.loads(signals_path.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                existing = []
+        cutoff = (datetime.now(KST) - timedelta(days=7)).date().isoformat()
+        merged = {}
+        for signal in existing + new_signals:
+            if signal.get("detected_at", "")[:10] < cutoff:
+                continue
+            key = (signal.get("ticker"), signal.get("signal"), signal.get("detected_at", "")[:10])
+            merged[key] = signal
+        signals_path.parent.mkdir(exist_ok=True)
+        signals_path.write_text(
+            json.dumps(list(merged.values()), ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
 
