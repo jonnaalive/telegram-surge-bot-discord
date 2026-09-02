@@ -698,5 +698,35 @@
     "summary": "Pfizer가 mRNA 기술을 활용한 혁신 백신 및 신약 개발에 주력하며 시장 점유율을 확대하고 있고, 이로 인해 52주 신고가를 경신하며 강한 상승 모멘텀을 이어가고 있습니다.",
     "theme": "바이오/제약 (혁신 신약, 백신)",
     "watch_score": 7.5
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-09-02T15:49:49.601949",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 인공지능(AI) 반도체 시장의 폭발적 성장에 대한 기대감과 차세대 HBM 및 첨단 파운드리 기술력 부각으로 투자심리가 개선되어 주가가 강세를 보였습니다. 특히, AI 시대의 핵심 인프라 제공자로서의 기업 가치 재평가가 급등의 주요 동인으로 작용했습니다.",
+    "theme": "AI반도체, 메모리반도체, 파운드리, 빅테크",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "PFE",
+    "company": "Pfizer",
+    "detected_at": "2026-09-02T15:49:25.542249",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "mRNA 기술을 활용한 백신 개발 및 혁신 의약품 파이프라인 확장 기대감에 힘입어 52주 신고가를 돌파하며 강한 상승세를 보였습니다.",
+    "theme": "바이오/제약",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "012330",
+    "company": "현대모비스",
+    "detected_at": "2026-09-02T15:49:49.601953",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "현대모비스가 2026년 차세대 자율주행 플랫폼 및 SDV(Software Defined Vehicle) 솔루션의 주요 부품 수주 확대 소식으로 미래 모빌리티 핵심 기업으로서의 가치가 부각되며 주가가 강세를 보였습니다. 그룹사 전동화 전략의 핵심 역할을 수행할 것이라는 기대감도 반영되었습니다.",
+    "theme": "자율주행, 전기차 부품, SDV (Software Defined Vehicle), 미래 모빌리티",
+    "watch_score": 8.0
   }
 ]
