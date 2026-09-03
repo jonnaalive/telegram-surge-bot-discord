@@ -728,5 +728,15 @@
     "summary": "현대모비스가 2026년 차세대 자율주행 플랫폼 및 SDV(Software Defined Vehicle) 솔루션의 주요 부품 수주 확대 소식으로 미래 모빌리티 핵심 기업으로서의 가치가 부각되며 주가가 강세를 보였습니다. 그룹사 전동화 전략의 핵심 역할을 수행할 것이라는 기대감도 반영되었습니다.",
     "theme": "자율주행, 전기차 부품, SDV (Software Defined Vehicle), 미래 모빌리티",
     "watch_score": 8.0
+  },
+  {
+    "ticker": "SNOW",
+    "company": "Snowflake",
+    "detected_at": "2026-09-03T15:37:21.568454",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "강력한 매수세와 52주 신고가 돌파로 인한 주가 급등. 클라우드 데이터 플랫폼 시장의 구조적 성장에 대한 기대감이 반영된 것으로 보입니다.",
+    "theme": "클라우드 데이터 플랫폼",
+    "watch_score": 7.5
   }
 ]
