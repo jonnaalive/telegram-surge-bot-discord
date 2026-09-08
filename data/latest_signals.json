@@ -1,15 +1,5 @@
 [
   {
-    "ticker": "PFE",
-    "company": "Pfizer",
-    "detected_at": "2026-09-01T15:55:46.272116",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "Pfizer가 mRNA 기술을 활용한 혁신 백신 및 신약 개발에 주력하며 시장 점유율을 확대하고 있고, 이로 인해 52주 신고가를 경신하며 강한 상승 모멘텀을 이어가고 있습니다.",
-    "theme": "바이오/제약 (혁신 신약, 백신)",
-    "watch_score": 7.5
-  },
-  {
     "ticker": "005930",
     "company": "삼성전자",
     "detected_at": "2026-09-02T15:49:49.601949",
@@ -328,5 +318,45 @@
     "summary": "2026년 시점에 특정 신약 파이프라인의 임상 긍정적 결과 발표, 기술 수출 계약 체결, 혹은 주요 제네릭 의약품의 시장 점유율 확대 등 개별 기업의 호재가 주가에 반영되었을 가능성이 높습니다. 바이오/헬스케어 섹터 전반의 투자심리 개선도 긍정적인 영향을 미쳤을 것입니다.",
     "theme": "바이오, 제약, 신약 개발",
     "watch_score": 6.5
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-09-08T15:50:06.631653",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 서버 핵심 부품인 고대역폭 메모리(HBM) 시장에서의 독보적인 기술 리더십과 강력한 실적 모멘텀에 힘입어 외국인 순매수가 집중되었습니다. HBM 공급 확대에 대한 기대감이 주가를 견인하고 있습니다.",
+    "theme": "AI반도체, HBM, 메모리반도체",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-09-08T15:50:06.631648",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 투자자의 강한 순매수 유입과 함께 AI 반도체 시대의 핵심인 고성능 메모리 및 파운드리 기술에 대한 기대감이 커지고 있습니다. 특히 온디바이스 AI 확산과 HBM 수요 증가에 따른 실적 개선 전망이 긍정적입니다.",
+    "theme": "AI반도체, 메모리반도체, 온디바이스 AI, 파운드리",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "042700",
+    "company": "한미반도체",
+    "detected_at": "2026-09-08T15:50:06.631655",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "HBM 제조의 필수 공정 장비인 TC 본더 시장에서의 독점적인 지위와 SK하이닉스 등 주요 고객사의 HBM 투자 확대에 따른 수혜 기대감이 외국인 매수세를 유발했습니다. AI 반도체 생태계의 핵심 후공정 장비 기업으로 주목받고 있습니다.",
+    "theme": "AI반도체 장비, HBM, 반도체 후공정",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "CVX",
+    "company": "Chevron",
+    "detected_at": "2026-09-08T15:49:37.921015",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가 돌파를 이어가며 강한 상승 모멘텀을 보였으며, 최근 대규모 LNG 프로젝트 완료로 생산능력 확대와 아시아 시장 입지 강화가 투자심리에 긍정적 영향을 미친 것으로 보입니다.",
+    "theme": "에너지 (Oil & Gas)",
+    "watch_score": 7.8
   }
 ]
