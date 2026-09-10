@@ -1,15 +1,5 @@
 [
   {
-    "ticker": "SNOW",
-    "company": "Snowflake",
-    "detected_at": "2026-09-03T15:37:21.568454",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "강력한 매수세와 52주 신고가 돌파로 인한 주가 급등. 클라우드 데이터 플랫폼 시장의 구조적 성장에 대한 기대감이 반영된 것으로 보입니다.",
-    "theme": "클라우드 데이터 플랫폼",
-    "watch_score": 7.5
-  },
-  {
     "ticker": "NVDA",
     "company": "엔비디아",
     "detected_at": "2026-09-04T15:36:47.548499",
@@ -337,6 +327,16 @@
     "signal": "price_surge",
     "summary": "역사적 신고가 돌파를 이어가며 강세를 보이고 있으며, 최근 대규모 LNG 프로젝트 완료로 생산능력 확대 및 아시아 시장 입지 강화가 투자심리에 긍정적 영향을 미치고 있습니다.",
     "theme": "에너지, 석유 및 가스, LNG",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "CVX",
+    "company": "Chevron",
+    "detected_at": "2026-09-10T15:40:38.744243",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 에너지 리더로서 역사적 신고가 돌파를 이어가며 강한 상승 모멘텀을 보이고 있으며, 최근 대규모 LNG 프로젝트 완료로 생산능력이 확대되고 아시아 시장 입지가 강화되어 안정적인 현금 흐름을 확보하고 있습니다.",
+    "theme": "에너지",
     "watch_score": 8.5
   }
 ]
