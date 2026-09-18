@@ -1,25 +1,5 @@
 [
   {
-    "ticker": "AMD",
-    "company": "AMD",
-    "detected_at": "2026-09-11T15:42:00.713094",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "파트너사인 마이크로컨텍솔의 AMD AI 가속기 소켓 공급 소식은 AMD의 AI 밸류체인 강화 및 AI 시장에서의 경쟁력 확대 기대감을 높이며 긍정적인 투자 심리를 자극.",
-    "theme": "AI반도체, 고성능 컴퓨팅, 데이터센터",
-    "watch_score": 8.5
-  },
-  {
-    "ticker": "206730",
-    "company": "마이크로컨텍솔",
-    "detected_at": "2026-09-11T15:42:00.713088",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "반도체 소켓 사업을 넘어 장비 분야로의 확장을 통한 '토털 솔루션' 기대감과 AMD 'AI 가속기' 소켓 공급을 통한 밸류체인 레벨업 전망이 복합적으로 작용하며 역사적 신고가 경신.",
-    "theme": "AI반도체, 반도체 소켓, 반도체 장비",
-    "watch_score": 8.0
-  },
-  {
     "ticker": "ORCL",
     "company": "오라클",
     "detected_at": "2026-09-12T14:49:30.746117",
@@ -288,5 +268,25 @@
     "summary": "신약 개발 임상 결과에 대한 불확실성 또는 바이오 섹터 전반의 투자 심리 위축으로 인한 외국인 매도가 출회되며 주가가 하락했습니다.",
     "theme": "바이오, 신약 개발, 방사성의약품",
     "watch_score": 6.0
+  },
+  {
+    "ticker": "NET",
+    "company": "Cloudflare",
+    "detected_at": "2026-09-18T15:38:05.182005",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "Cloudflare는 역사적 신고가를 돌파하며 강한 상승 모멘텀을 보이고 있으며, 인터넷 트래픽 증가와 사이버 보안 수요 확대라는 구조적 성장 동력을 기반으로 하고 있습니다.",
+    "theme": "클라우드 인프라, 사이버 보안",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "ABBV",
+    "company": "AbbVie",
+    "detected_at": "2026-09-18T15:38:12.616263",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가 신규 돌파는 투자자들의 강력한 신뢰와 긍정적인 전망을 반영하며, 면역학 및 종양학 분야의 견고한 제품 포트폴리오와 신약 개발 역량이 주가 상승을 견인하고 있습니다.",
+    "theme": "바이오/제약 (신약 개발)",
+    "watch_score": 8.0
   }
 ]
