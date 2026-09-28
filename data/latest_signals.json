@@ -1,15 +1,5 @@
 [
   {
-    "ticker": "ABBV",
-    "company": "AbbVie",
-    "detected_at": "2026-09-21T17:39:42.716727",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "면역학 및 종양학 분야에서의 강력한 제품 포트폴리오와 지속적인 신약 개발 노력을 바탕으로 역사적 신고가를 경신하며 시장의 긍정적인 평가를 받고 있습니다.",
-    "theme": "바이오제약 (면역학, 종양학)",
-    "watch_score": 8.0
-  },
-  {
     "ticker": "NET",
     "company": "Cloudflare",
     "detected_at": "2026-09-22T16:05:50.345255",
@@ -78,5 +68,315 @@
     "summary": "AI 반도체 시장에서의 입지 강화 노력과 파운드리 사업 재진출 전략, 그리고 미국 정부의 반도체 보조금 지원 기대감이 복합적으로 작용하여 주가에 긍정적인 영향을 미쳤습니다.",
     "theme": "AI 반도체, 반도체, 파운드리",
     "watch_score": 7.0
+  },
+  {
+    "ticker": "031980",
+    "company": "피에스케이홀딩스",
+    "detected_at": "2026-09-28T19:07:18.186484",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "리플로우 장비 300대 대규모 수주 소식이 기대감을 높이며, TSMC의 CoWoS 확장 수혜 및 HBM 메모리 관련 긍정적인 전망이 나오고 있습니다.",
+    "theme": "HBM, AI반도체, 반도체 장비, CoWoS",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "TSM",
+    "company": "TSMC",
+    "detected_at": "2026-09-28T19:07:18.186498",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "피에스케이홀딩스의 CoWoS 확장 수혜와 연계되어 AI 반도체 생산에 필수적인 첨단 패키징 기술력 및 파운드리 시장 선두 주자로서의 지위 강화 기대감이 반영되었습니다.",
+    "theme": "AI반도체, 파운드리, CoWoS, 첨단 패키징",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "085910",
+    "company": "샘씨엔에스",
+    "detected_at": "2026-09-28T19:07:18.186482",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "세라믹 STF 설비의 풀가동 및 캐파 증설 논의로 생산력 강화가 기대되며, HBM4 국산화 수혜주로 주목받으며 첨단 반도체 분야 확장이 전망됩니다.",
+    "theme": "HBM, AI반도체, 반도체 소재/부품",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "219130",
+    "company": "타이거일렉",
+    "detected_at": "2026-09-28T19:07:18.186486",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "HBM 검사 기판 수요 확대로 인한 반도체 시장 활황 기대감이 있으며, 판가 상승으로 구조적인 수익성 개선이 전망됩니다.",
+    "theme": "HBM, AI반도체, 반도체 검사 기판",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-09-28T19:07:18.186493",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "마이크로컨텍솔과의 소켓 공급 진행 및 HBM 시장에서의 선도적인 위치를 통해 AI 반도체 시장의 강력한 수혜가 기대되고 있습니다.",
+    "theme": "AI반도체, HBM, 메모리 반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "098120",
+    "company": "마이크로컨텍솔",
+    "detected_at": "2026-09-28T19:07:18.186489",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AMD 'AI 가속기' 소켓 샘플 공급 및 SK하이닉스 소켓 공급 진행으로 반도체 밸류체인 강화가 기대되며, 엠에스엘 인수로 반도체 소켓부터 장비까지 아우르는 토털 솔루션 완성이 기대됩니다.",
+    "theme": "AI반도체, 반도체 소켓, 반도체 장비",
+    "watch_score": 8.8
+  },
+  {
+    "ticker": "373430",
+    "company": "엑시콘",
+    "detected_at": "2026-09-28T19:06:38.970874",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 및 고성능 컴퓨팅 시대의 핵심인 HBM 등 고성능 메모리 테스트 장비 수요 증가에 대한 기대감이 반영되며 역사적 신고가를 경신했습니다.",
+    "theme": "AI 반도체, 메모리 테스트 장비",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "092870",
+    "company": "엑시콘",
+    "detected_at": "2026-09-28T19:07:18.186470",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "삼성전자와의 498억 규모 반도체 검사장비 공급 계약 체결로 수주 확대 기대감이 커졌으며, 차세대 CXL 3.1 테스터 상용화 추진을 통해 기술력이 부각되고 있습니다.",
+    "theme": "AI반도체, 반도체 검사장비, CXL",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "AMD",
+    "company": "AMD",
+    "detected_at": "2026-09-28T19:07:18.186496",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "마이크로컨텍솔로부터 'AI 가속기' 소켓 샘플을 공급받으며 AI 반도체 시장에서의 경쟁력 강화 및 신제품 출시 기대감이 반영되었습니다.",
+    "theme": "AI반도체, GPU, CPU",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "009830",
+    "company": "한화솔루션",
+    "detected_at": "2026-09-28T19:08:04.484816",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수와 15.2%의 폭발적인 상승은 미국 IRA (인플레이션 감축법) 수혜 기대감 지속 및 태양광, 수소 등 신재생에너지 사업의 강력한 성장 잠재력이 부각된 결과입니다.",
+    "theme": "신재생에너지 (태양광, 수소), 에너지 저장장치 (ESS), 화학",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "130500",
+    "company": "마이크로컨텍솔",
+    "detected_at": "2026-09-28T19:06:38.970885",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 및 고성능 반도체 시장 확대로 HBM 테스트 소켓 수요가 급증하며 동사의 관련 기술력 부각과 함께 역사적 신고가를 경신했습니다.",
+    "theme": "AI 반도체, 테스트 소켓",
+    "watch_score": 8.2
+  },
+  {
+    "ticker": "GOOGL",
+    "company": "구글",
+    "detected_at": "2026-09-28T19:06:16.804308",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "주요 클라우드 기업 대상 AI 맞춤형 반도체(ASIC) 및 구글 TPU 수주가 확대되고 있다는 소식이 MediaTek 분석에서 언급되며, 이는 Google의 AI 인프라 경쟁력 강화에 대한 기대감으로 작용합니다.",
+    "theme": "AI반도체, 클라우드 컴퓨팅, 빅테크",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-09-28T19:07:18.186491",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "엑시콘과의 대규모 반도체 검사장비 공급 계약 체결을 통해 반도체 생산 능력 및 기술력 강화 기대감이 높으며, HBM 및 파운드리 부문의 성장 기대감이 반영된 것으로 보입니다.",
+    "theme": "AI반도체, 반도체, 파운드리, HBM",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "011070",
+    "company": "LG이노텍",
+    "detected_at": "2026-09-28T19:08:04.484814",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수와 8.6%의 급등은 주요 고객사의 신제품 출시 기대감(예: 애플 아이폰)과 광학솔루션 및 전장 부품 사업의 성장성에 대한 긍정적 평가가 반영된 것으로 보입니다.",
+    "theme": "스마트폰 부품, 전장 부품, XR기기",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "035420",
+    "company": "NAVER",
+    "detected_at": "2026-09-28T19:08:04.484819",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수와 1.4%의 상승은 인공지능(AI) 서비스 고도화 및 신규 AI 모델 출시 기대감, 이커머스 및 콘텐츠 사업의 안정적인 성장에 대한 투자자들의 긍정적 평가가 작용한 것으로 보입니다.",
+    "theme": "빅테크, AI, 이커머스, 웹툰/콘텐츠, 클라우드",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "322000",
+    "company": "HD현대에너지솔루션",
+    "detected_at": "2026-09-28T19:08:04.484823",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수와 4.8% 상승은 미국 IRA 수혜 등 글로벌 신재생에너지 정책 기대감과 태양광 모듈 및 솔루션 사업의 성장성 부각, 그리고 HD현대 그룹사의 에너지 전환 전략 핵심 기업으로서의 주목에 따른 것으로 보입니다.",
+    "theme": "태양광, 신재생에너지, 에너지 저장장치 (ESS)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "396300",
+    "company": "HT로보틱스",
+    "detected_at": "2026-09-28T19:08:28.866652",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "글로벌 AI 데이터센터 전력 인프라 공급망 진입 및 4분기 첫 납품 확정 기대감, 그리고 1조 원 수주잔고 돌파 전망이라는 강력한 호재에도 불구하고, 당일 주가는 -2.83% 하락했습니다. 이는 단기적인 차익실현 또는 시장 전반의 조정 압력에 따른 것으로 풀이됩니다.",
+    "theme": "AI 데이터센터 전력 인프라",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "009150",
+    "company": "삼성전기",
+    "detected_at": "2026-09-28T19:09:15.114290",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "소폭 하락(-1.0%)했으나, 투신권을 중심으로 기관 순매수가 유입되었습니다. 이는 MLCC, 카메라 모듈 등 주요 부품의 전장 및 IT 기기 수요 회복 기대감, 또는 AI 반도체 기판(FC-BGA) 사업의 잠재력에 대한 긍정적 시각을 반영한 것으로 보입니다.",
+    "theme": "전자부품, AI 반도체 (FC-BGA), 전장 부품, MLCC",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "252990",
+    "company": "샘씨엔에스",
+    "detected_at": "2026-09-28T19:06:38.970880",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "고성능 반도체 패키징에 필수적인 고부가 세라믹 기판 수요 증가 전망과 동사의 기술력이 부각되며 역사적 신고가를 달성했습니다.",
+    "theme": "AI 반도체, 세라믹 기판",
+    "watch_score": 7.8
+  },
+  {
+    "ticker": "077500",
+    "company": "유니퀘스트",
+    "detected_at": "2026-09-28T19:07:18.186479",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "미국 구루와이어리스와의 파트너십 체결을 통해 글로벌 시장 확장이 기대되며, 차세대 AI 비전 솔루션의 턴어라운드로 스마트 모빌리티 분야 경쟁력 강화가 전망됩니다.",
+    "theme": "AI, 스마트 모빌리티, 무선통신",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "007660",
+    "company": "일진전기",
+    "detected_at": "2026-09-28T19:08:04.484830",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도와 0.1%의 소폭 하락은 특정 상승 모멘텀 부재 및 외국인 투자자의 단기 차익 실현 또는 전력 인프라 관련주의 단기 과열 해소 움직임으로 판단됩니다.",
+    "theme": "전력 인프라, 변압기, 전선, 신재생에너지 (송배전)",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "067310",
+    "company": "하나마이크론",
+    "detected_at": "2026-09-28T19:08:04.484840",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도와 1.0% 하락은 반도체 후공정 업황 둔화 우려 또는 외국인 투자자의 차익 실현, 미중 기술 분쟁 심화 및 글로벌 IT 경기 둔화의 영향으로 해석됩니다.",
+    "theme": "반도체 후공정, OSAT (Outsourced Semiconductor Assembly and Test), 패키징",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "066570",
+    "company": "LG전자",
+    "detected_at": "2026-09-28T19:09:15.114292",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "투신, 연기금의 순매수세에 힘입어 3.1% 상승 마감했습니다. 이는 가전 사업의 프리미엄화 및 B2B 사업(전장, 상업용 디스플레이) 성장 기대감, 그리고 로봇, AI 등 미래 신사업 투자에 대한 긍정적 평가가 반영된 것으로 분석됩니다.",
+    "theme": "가전, 전장부품, 로봇, AI",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "096770",
+    "company": "SK이노베이션",
+    "detected_at": "2026-09-28T19:09:24.771481",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가를 재돌파하며 강한 매수세가 유입되었고, 이는 시장의 긍정적인 기대감 및 모멘텀 반영으로 해석됩니다.",
+    "theme": "2차전지 (전기차 배터리), 에너지/화학",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "NIO",
+    "company": "니오",
+    "detected_at": "2026-09-28T19:06:16.804315",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "CATL의 주가 하락 요인으로 니오(NIO)와 지리자동차의 배터리 충·환전 사업 협력 소식이 언급되었습니다. 이는 니오가 배터리 공급선 다변화 및 독자적인 충전 생태계 구축을 통해 경쟁력을 강화하고 있다는 긍정적인 신호로 해석됩니다.",
+    "theme": "전기차, 배터리 충전/교환 서비스, 신흥기술",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "052860",
+    "company": "아이앤씨",
+    "detected_at": "2026-09-28T19:07:18.186476",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "IoT 시장에서 자체 개발한 Wi-Fi 칩셋을 통해 경쟁력 강화 기대감이 높으며, 3세대 초소형 아크차단기 개발로 기술적 우위를 확보할 전망입니다.",
+    "theme": "IoT, 스마트홈, 전력기기",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "005935",
+    "company": "삼성전자우",
+    "detected_at": "2026-09-28T19:08:04.484828",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도와 5.9% 하락은 삼성전자 본주와 함께 반도체 업황의 불확실성에 대한 우려와 외국인 투자자의 차익 실현 매물 출회에 기인한 것으로 해석됩니다. 우선주 특성상 본주 대비 변동성이 더 크게 나타났을 수 있습니다.",
+    "theme": "반도체, IT 하드웨어, 스마트폰, 디스플레이",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "001820",
+    "company": "삼화콘덴서",
+    "detected_at": "2026-09-28T19:08:04.484837",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도와 1.2% 하락은 콘덴서 산업의 전반적인 수요 둔화 우려 또는 외국인 투자자의 단기 차익 실현, IT 및 전장 부품 시장의 불확실성에 대한 영향으로 분석됩니다.",
+    "theme": "콘덴서 (MLCC, 전력용 콘덴서), 전장 부품, 신재생에너지 (ESS용)",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "047040",
+    "company": "대우건설",
+    "detected_at": "2026-09-28T19:08:04.484807",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 투자자의 대규모 순매수 유입과 당일 8.0%의 주가 상승은 건설 경기 회복 기대감 및 정부의 SOC 투자 확대 가능성, 또는 특정 대형 프로젝트 수주 기대감이 반영된 것으로 해석됩니다.",
+    "theme": "건설, 인프라, 재건",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "000720",
+    "company": "현대건설",
+    "detected_at": "2026-09-28T19:08:04.484826",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수와 3.3% 상승은 건설 경기 회복 기대감, 해외 플랜트 수주 증가 및 국내 주택 사업의 안정적 포트폴리오, 네옴시티 등 대형 해외 프로젝트 수주 기대감이 복합적으로 작용한 결과입니다.",
+    "theme": "건설, 해외 플랜트, 인프라, 원전",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "006360",
+    "company": "GS건설",
+    "detected_at": "2026-09-28T19:08:04.484821",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수와 3.2%의 상승은 건설업 전반의 투자심리 개선 및 정부의 SOC 투자 확대 기대감, 재건축/재개발 등 주택 부문에서의 경쟁력 부각에 기인한 것으로 판단됩니다.",
+    "theme": "건설, 인프라, 주택",
+    "watch_score": 6.0
   }
 ]
