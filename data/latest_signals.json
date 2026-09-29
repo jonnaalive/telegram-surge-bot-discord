@@ -1,15 +1,5 @@
 [
   {
-    "ticker": "NET",
-    "company": "Cloudflare",
-    "detected_at": "2026-09-22T16:05:50.345255",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "역사적 신고가 돌파를 이어가며 강력한 시장 모멘텀을 보여주고 있습니다. 이는 기업의 성장 기대감과 기술 혁신에 대한 투자자들의 높은 신뢰를 반영하는 것으로 해석됩니다.",
-    "theme": "클라우드 보안, 인터넷 인프라, 엣지 컴퓨팅",
-    "watch_score": 8.5
-  },
-  {
     "ticker": "TMO",
     "company": "Thermo Fisher Scientific",
     "detected_at": "2026-09-24T16:18:48.320119",
@@ -377,6 +367,166 @@
     "signal": "price_surge",
     "summary": "외국인 순매수와 3.2%의 상승은 건설업 전반의 투자심리 개선 및 정부의 SOC 투자 확대 기대감, 재건축/재개발 등 주택 부문에서의 경쟁력 부각에 기인한 것으로 판단됩니다.",
     "theme": "건설, 인프라, 주택",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-09-29T17:28:57.879485",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "피에스케이홀딩스, 케이씨 등 다수 반도체 장비/소재 기업들의 HBM, CoWoS 관련 수혜 및 SK하이닉스와의 협력 소식은 SK하이닉스의 HBM 리더십과 전반적인 반도체 업황 회복에 대한 기대감을 반영하는 것으로 분석됩니다.",
+    "theme": "AI반도체, HBM, 메모리 반도체",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "042700",
+    "company": "한미반도체",
+    "detected_at": "2026-09-29T17:29:13.900705",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 반도체의 핵심 부품인 고대역폭 메모리(HBM) 생산에 필수적인 TC 본더 등 후공정 장비 수요가 폭발적으로 증가하며 급등했습니다. 한미반도체는 이 분야에서 독보적인 기술력과 시장 점유율을 보유하고 있습니다.",
+    "theme": "AI반도체, HBM 장비, 반도체 후공정",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "031980",
+    "company": "피에스케이홀딩스",
+    "detected_at": "2026-09-29T17:28:57.879472",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "리플로우 장비 대규모 수주 소식으로 반도체 패키징 장비 수요 증가 기대감이 반영되었으며, HBM 및 CoWoS 동반 수혜주로서 경쟁력 강화 전망이 긍정적입니다.",
+    "theme": "AI반도체, HBM, CoWoS, 반도체 패키징 장비",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "180400",
+    "company": "뉴파워프라즈마",
+    "detected_at": "2026-09-29T17:28:57.879483",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "세계 1위 반도체 장비사 AMAT의 2028년까지 물량 요청으로 인한 수주 증가 기대감과 증착·식각 공정 핵심 장비의 세계 점유율 2위가 부각되며 주가가 상승했습니다.",
+    "theme": "반도체 장비, 증착/식각 공정, AMAT 공급",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "087600",
+    "company": "샘씨엔에스",
+    "detected_at": "2026-09-29T17:28:57.879476",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "세라믹 STF 설비의 풀가동 및 캐파 증설 논의로 생산 능력 확대 기대감이 있으며, 이탈리아 고객사에 대한 HBM향 공급 소식으로 내년 실적 고성장 전망이 주가를 견인했습니다.",
+    "theme": "AI반도체, HBM, 반도체 부품/소재",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "250760",
+    "company": "타이거일렉",
+    "detected_at": "2026-09-29T17:28:57.879478",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "HBM 검사 기판 수요 확대 기대감으로 인한 반도체 시장 호조와 고다층 프로브카드 PCB 기술력이 주목받으며 주가가 상승했습니다.",
+    "theme": "AI반도체, HBM, 반도체 검사 기판, 프로브카드 PCB",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "252990",
+    "company": "샘씨엔에스",
+    "detected_at": "2026-09-29T17:30:40.711214",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 열풍에 힘입은 HBM 관련 세라믹 STF 설비의 풀가동과 캐파 증설 계획 논의, 그리고 연매출 1000억 돌파 기대감으로 인해 주가가 상승했습니다.",
+    "theme": "AI반도체",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "META",
+    "company": "Meta Platforms",
+    "detected_at": "2026-09-29T17:28:25.117846",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "오픈AI의 상시 가동형 인공지능(AI) 에이전트 공개 임박 보도로 경쟁 심화 우려가 부각되었고, 대규모 AI 설비투자 대비 수익성 회수 불확실성에 대한 경고가 이어지며 투자 심리가 위축되었습니다.",
+    "theme": "빅테크, AI (LLM, AI agent)",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "029460",
+    "company": "케이씨",
+    "detected_at": "2026-09-29T17:28:57.879481",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "SK하이닉스와의 '지능형 가스 공급장치' 특허 공동 출원으로 기술 혁신 기대감이 커졌으며, 반도체 장비 및 소재 시장에서의 지속적인 성장 가능성이 전망됩니다.",
+    "theme": "반도체 장비, 반도체 소재, 특허 기술",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "064290",
+    "company": "인텍플러스",
+    "detected_at": "2026-09-29T17:28:57.879482",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "반도체 및 기판 검사 장비의 중국 공급 계약 체결로 인한 매출 확대 기대감이 있으며, 수주 급증과 하반기 실적 반등 기대에 따른 긍정적 전망이 주가에 반영되었습니다.",
+    "theme": "반도체 검사 장비, 기판 검사 장비, 중국 시장",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "009830",
+    "company": "한화솔루션",
+    "detected_at": "2026-09-29T17:30:28.905342",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "당일 주가는 3.1% 하락했음에도 불구하고, 기관 투자자(투신, 연기금)들이 순매수에 나서며 저가 매수 기회로 활용했습니다. 이는 향후 주가 반등에 대한 기대를 나타냅니다.",
+    "theme": "신재생에너지, 태양광, 수소, 화학",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-09-29T17:30:01.217503",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "텔레그램 메시지에서는 '상승'으로 언급되었으나, 제시된 분석 요청의 '추출된 종목'에서는 '급락'으로 표기되어 분석합니다. 이는 전반적인 시장 약세와 미국 국채금리 상승, 외국인 및 기관의 순매도 압박 속에서 하락 압력을 받은 것으로 해석됩니다.",
+    "theme": "반도체/소부장",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "003670",
+    "company": "포스코퓨처엠",
+    "detected_at": "2026-09-29T17:30:01.217510",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "2차전지 소재 산업 전반의 투자심리 위축과 전기차 수요 둔화 우려, 그리고 외국인/기관의 매도세가 겹치며 큰 폭으로 하락했습니다.",
+    "theme": "배터리/2차전지 소재",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "MU",
+    "company": "Micron Technology",
+    "detected_at": "2026-09-29T17:28:25.117850",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "오픈AI의 인공지능(AI) 모델 훈련 일시 중단 소식에 따른 기술주 전반의 약세와 더불어, 분기 실적 발표를 앞두고 국채 금리 상승 및 차익 실현 매물이 출회되며 하락했습니다.",
+    "theme": "메모리 반도체, AI 반도체",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "TSLA",
+    "company": "Tesla",
+    "detected_at": "2026-09-29T17:28:25.117848",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "주요 투자은행들이 핵심 시장의 수요 둔화를 지목하며 목표주가와 차량 인도량 전망치를 일제히 하향 조정한 영향으로 하락했습니다.",
+    "theme": "전기차 (EV), 자율주행",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "unknown",
+    "company": "인제니아테라퓨틱스(Reg.S)",
+    "detected_at": "2026-09-29T17:28:57.879479",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "'MK-8748'의 글로벌 3상 진입과 MSD로부터 68억 원 수령 소식이 주가 상승 요인으로 작용했으며, 후속 파이프라인 'IGT-303'의 미국 2상 절차 돌입으로 사업화 기대감이 증가했습니다.",
+    "theme": "바이오, 신약 개발, 임상 파이프라인",
     "watch_score": 6.0
   }
 ]
