@@ -528,5 +528,145 @@
     "summary": "'MK-8748'의 글로벌 3상 진입과 MSD로부터 68억 원 수령 소식이 주가 상승 요인으로 작용했으며, 후속 파이프라인 'IGT-303'의 미국 2상 절차 돌입으로 사업화 기대감이 증가했습니다.",
     "theme": "바이오, 신약 개발, 임상 파이프라인",
     "watch_score": 6.0
+  },
+  {
+    "ticker": "TSM",
+    "company": "Taiwan Semiconductor Manufacturing Company",
+    "detected_at": "2026-09-30T17:26:14.618936",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 빅테크 고객사의 인공지능(AI) 반도체 주문 확대로 최첨단 공정 증설 계획이 앞당겨질 것이라는 기대감이 반영되었습니다. 아울러 해외 생산 거점 추가 확장 가능성이 부각되며 투자 심리를 개선했습니다.",
+    "theme": "AI 반도체, 파운드리, 첨단 반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-09-30T17:27:01.379401",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수가 강하게 유입되며 주가 상승(+1.6%)을 견인했습니다. 특히 HBM 등 고대역폭 메모리 시장의 선두주자로서 AI 반도체 수요 폭증의 핵심 수혜주로 부각되고 있습니다.",
+    "theme": "AI 반도체, HBM, 메모리 반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "267260",
+    "company": "HD현대일렉트릭",
+    "detected_at": "2026-09-30T17:27:01.379406",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "메시지 상 주가는 소폭 하락(-3.1%)했지만, 외국인 순매수가 강하게 유입되며 견조한 매수세를 보였습니다. 이는 글로벌 전력 인프라 투자 확대 및 변압기 수요 급증이라는 구조적 성장에 대한 확신으로 외국인이 저가 매수에 나선 것으로 해석됩니다.",
+    "theme": "전력 인프라, 변압기, 친환경 에너지 (그리드), 송배전",
+    "watch_score": 8.8
+  },
+  {
+    "ticker": "PANW",
+    "company": "Palo Alto Networks",
+    "detected_at": "2026-09-30T17:25:50.065607",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가를 신규 돌파하며 클라우드 및 AI 기반 사이버 보안 솔루션의 지속적인 성장 기대감을 반영했습니다.",
+    "theme": "사이버 보안, 클라우드 보안, AI",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "GOOGL",
+    "company": "구글",
+    "detected_at": "2026-09-30T17:26:14.618943",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "MediaTek 관련 '구글 인공지능 칩 주문 이탈 루머'가 발생하며 투자심리가 위축된 것으로 분석됩니다. 비록 MediaTek 측에서 해당 루머가 사실무근이라고 일축했지만, 루머 자체로 인해 구글에 대한 단기적인 우려가 반영된 것으로 보입니다.",
+    "theme": "빅테크, AI, 클라우드 컴퓨팅, 광고, 자율주행",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-09-30T17:27:01.379395",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "메시지 상으로는 외국인 순매도 및 소폭 하락(-0.8%)이 관찰되었으나, 글로벌 AI 반도체 및 스마트폰 시장 회복 기대감, HBM 등 고부가 메모리 사업 확장으로 인한 잠재적 상승 여력이 크게 부각되며 전반적인 시장의 '급등' 기대 심리가 형성되고 있습니다.",
+    "theme": "반도체, AI 반도체, 스마트폰, 전장부품",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "unknown",
+    "company": "MediaTek",
+    "detected_at": "2026-09-30T17:26:14.618930",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "구글 AI 칩 주문 이탈 루머에 대해 사측이 사실무근이라고 일축하며 악재 우려가 완화되었습니다. 또한 TSMC의 첨단 패키징 지원으로 생산 병목 해소 분석과 주요 외국계 증권사들의 목표주가 상향 조정이 잇따르며 투자심리가 회복되었습니다.",
+    "theme": "AI 반도체, 팹리스",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "009150",
+    "company": "삼성전기",
+    "detected_at": "2026-09-30T17:27:01.379409",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "메시지 상으로는 주가 약보합(-0.4%) 및 외국인 순매도가 관찰되었으나, AI 및 전장용 고부가 MLCC/기판 수요 증가에 따른 업황 개선 기대감이 지속되며 중장기적인 성장 잠재력에 대한 시장의 긍정적인 시각이 '급등' 모멘텀으로 인식될 수 있습니다.",
+    "theme": "MLCC, 카메라 모듈, 기판 (FC-BGA), 전장부품",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "009830",
+    "company": "한화솔루션",
+    "detected_at": "2026-09-30T17:29:07.345597",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관(투신, 연기금)의 순매수와 함께, 미국 IRA(인플레이션 감축법) 수혜에 따른 태양광 사업의 견조한 성장세 지속, 수소 사업 포트폴리오 강화 기대감 등이 주가 상승에 긍정적인 영향을 미치는 것으로 분석됩니다.",
+    "theme": "태양광, 신재생에너지, 수소경제, 첨단소재",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "066570",
+    "company": "LG전자",
+    "detected_at": "2026-09-30T17:29:07.345595",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관(투신, 연기금)의 잠정적 순매도에도 불구하고, 전장(VS) 사업의 고성장세 지속 및 흑자전환 기대감, B2B 솔루션 사업 확대가 복합적으로 작용하며 긍정적인 시장 평가를 받는 것으로 분석됩니다.",
+    "theme": "전장부품, 가전, 스마트홈, B2B 솔루션",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "219130",
+    "company": "타이거일렉",
+    "detected_at": "2026-09-30T17:29:29.879860",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "미국 반도체주 강세와 AI 서버 및 HBM(고대역폭 메모리) 검사 기판 수요 확대 기대감에 힘입어 긍정적 주가 흐름을 보임.",
+    "theme": "AI 반도체, HBM, 고성능 PCB",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "105560",
+    "company": "KB금융",
+    "detected_at": "2026-09-30T17:29:07.345593",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "연기금의 잠정적 순매도에도 불구하고, 고금리 환경 유지에 따른 이자이익 확대 기대감, 주주환원 정책 강화 및 한국 증시의 저PBR 관련 밸류업 프로그램 수혜 기대감이 주가 상승 요인으로 작용하는 것으로 보입니다.",
+    "theme": "금융, 저PBR 밸류업, 배당주",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "028300",
+    "company": "HLB",
+    "detected_at": "2026-09-30T17:27:01.379404",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "간암 신약 리보세라닙의 FDA 승인 기대감이 지속되며 외국인 순매수세가 유입되어 주가가 상승(+2.9%)했습니다. 임상 결과 및 허가 절차의 긍정적인 진행 상황이 투자 심리를 자극했습니다.",
+    "theme": "바이오 신약, 항암 치료제",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "053260",
+    "company": "금강철강",
+    "detected_at": "2026-09-30T17:29:21.648333",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "알래스카 LNG 프로젝트 수혜 기대감에 따른 철강주 강세 전망과 이란 철강 수출 금지로 인한 글로벌 수요 증가 기대감이 복합적으로 작용하여 주가가 급등했습니다.",
+    "theme": "철강, 에너지 인프라, 글로벌 공급망",
+    "watch_score": 6.0
   }
 ]
