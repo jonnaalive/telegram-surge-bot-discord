@@ -8,5 +8,185 @@
     "summary": "글로벌 무설탕 제품군 확장 및 신흥 시장 매출 증가세에 힘입어 역사적 신고가를 돌파했습니다.",
     "theme": "필수소비재",
     "watch_score": 8.5
+  },
+  {
+    "ticker": "MA",
+    "company": "Mastercard",
+    "detected_at": "2026-10-16T15:55:34.709327",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 디지털 결제 시장의 구조적 성장에 힘입어 역사적 신고가를 지속적으로 경신하며 강력한 상승 모멘텀을 이어가고 있습니다.",
+    "theme": "디지털 결제 (Digital Payment)",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "MU",
+    "company": "마이크론",
+    "detected_at": "2026-10-16T15:57:19.797578",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "인공지능(AI) 산업의 폭발적인 성장에 따른 고대역폭 메모리(HBM) 수요 급증과 전반적인 메모리 반도체 업황 회복 기대감이 주가를 끌어올렸습니다.",
+    "theme": "반도체, 메모리 반도체, AI반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "AAPL",
+    "company": "Apple Inc.",
+    "detected_at": "2026-10-16T15:55:59.789230",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "중국 내 애플 인텔리전스 서비스 출시 관련 알리바바의 AI 기술 탑재 소식은 애플의 AI 전략 확장 및 중국 시장 내 경쟁력 강화 기대감을 높여 주가 상승에 긍정적으로 작용했습니다.",
+    "theme": "AI (인공지능), 빅테크, 서비스 확장",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "196170",
+    "company": "알테오젠",
+    "detected_at": "2026-10-16T15:57:19.797576",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "독자적인 피하주사(SC) 제형 변경 플랫폼 기술인 Hybrozyme의 글로벌 기술 수출 확대 기대감과 파트너사의 임상 순항 소식으로 투자심리가 개선되었습니다.",
+    "theme": "바이오, 플랫폼 기술, 기술수출",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "005380",
+    "company": "현대차",
+    "detected_at": "2026-10-16T15:57:19.797567",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 전기차 시장의 구조적 성장과 SUV 및 고급차 라인업 판매 호조가 외국인 매수세를 견인했으며, UAM 등 미래 모빌리티 사업에 대한 기대감도 반영된 것으로 보입니다.",
+    "theme": "자동차, 전기차, 미래 모빌리티",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "BABA",
+    "company": "Alibaba Group Holding",
+    "detected_at": "2026-10-16T15:55:59.789225",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "중국 내 출시되는 애플 인텔리전스 서비스에 알리바바의 인공지능 기술이 탑재된다는 소식과 함께 자체 AI 스마트 안경 공개 등 AI 사업 경쟁력 및 협력 모멘텀이 부각되며 주가가 상승했습니다.",
+    "theme": "AI (인공지능), 클라우드 컴퓨팅, 이커머스",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "263600",
+    "company": "HT로보틱스",
+    "detected_at": "2026-10-16T15:56:32.016190",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 로봇 시장의 성장 기대감과 국내 로봇 기업들의 기술 경쟁력 부각으로 투자 심리가 개선되며 급등했습니다. 특히 산업용 로봇 및 협동 로봇 분야의 확장 가능성이 주목받고 있습니다.",
+    "theme": "로봇",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "021240",
+    "company": "코웨이",
+    "detected_at": "2026-10-16T15:56:32.016203",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "안정적인 렌탈 사업 성장에 따른 실적 개선 기대감과 해외 시장 확장 전략에 대한 긍정적인 평가가 주가 상승을 이끌었습니다. 경기 방어적 특성 또한 투자 매력을 높였습니다.",
+    "theme": "렌탈 서비스",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "068270",
+    "company": "셀트리온",
+    "detected_at": "2026-10-16T15:57:19.797572",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "바이오시밀러 시장의 견조한 성장세와 신규 파이프라인의 임상 및 허가 기대감, 그리고 그룹사 합병을 통한 경쟁력 강화가 외국인 투자심리를 자극한 것으로 분석됩니다.",
+    "theme": "바이오, 바이오시밀러, 제약",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "289020",
+    "company": "엘앤씨바이오",
+    "detected_at": "2026-10-16T15:57:19.797585",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "인체조직 이식재 및 의료기기 관련 독자적인 기술력과 신제품 출시 및 해외 시장 진출에 대한 기대감이 부각되며 외국인 매수세가 유입되었습니다.",
+    "theme": "의료기기, 재생의료, 바이오",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "326030",
+    "company": "SK바이오팜",
+    "detected_at": "2026-10-16T15:57:28.960553",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가 돌파에 따른 기술적 매수세 유입과 함께, 시장에서는 신약 파이프라인 가치 및 글로벌 시장 확대 기대감이 반영된 것으로 판단됩니다.",
+    "theme": "바이오 (혁신 신약 개발)",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "251970",
+    "company": "펌텍코리아",
+    "detected_at": "2026-10-16T15:56:32.016194",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "K-뷰티의 글로벌 인기 지속과 함께 화장품 OEM/ODM 기업들의 수주 증가 기대감에 힘입어 주가가 강세를 보였습니다. 신흥 시장에서의 성장세가 특히 긍정적입니다.",
+    "theme": "화장품 (OEM/ODM)",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "035900",
+    "company": "JYP Ent.",
+    "detected_at": "2026-10-16T15:57:19.797583",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "소속 아티스트들의 글로벌 팬덤 확장과 신규 아이돌 그룹의 성공적인 데뷔 기대감, 그리고 앨범 판매 및 해외 투어 매출 증가 전망이 외국인 매수세를 이끌었습니다.",
+    "theme": "엔터테인먼트, K-POP, 콘텐츠",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "033780",
+    "company": "KT&G",
+    "detected_at": "2026-10-16T15:56:32.016196",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "안정적인 담배 사업 실적과 궐련형 전자담배(HnB) 시장 확대로 인한 성장 기대감, 그리고 꾸준한 배당 매력이 복합적으로 작용하여 주가 상승을 견인했습니다. 특히 방어주로서의 매력도 부각되었습니다.",
+    "theme": "음식료",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "036930",
+    "company": "주성엔지니어링",
+    "detected_at": "2026-10-16T15:57:19.797587",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "반도체 전방 산업의 투자 사이클 둔화 우려와 특정 장비 수주 불확실성으로 인해 외국인들의 차익 실현 매물이 출회된 것으로 보입니다.",
+    "theme": "반도체 장비, 디스플레이 장비",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "078600",
+    "company": "대주전자재료",
+    "detected_at": "2026-10-16T15:57:19.797594",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "차세대 2차전지 소재인 실리콘 음극재 사업의 상용화 시점 불확실성, 경쟁 심화 또는 전방 전기차 시장의 단기 성장 둔화 우려가 외국인 매도 요인으로 작용했습니다.",
+    "theme": "2차전지, 실리콘 음극재, 전자재료",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "066970",
+    "company": "엘앤에프",
+    "detected_at": "2026-10-16T15:57:19.797574",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "2차전지 소재 산업의 단기적인 공급 과잉 우려와 주요 고객사의 재고 조정 영향으로 실적 하락 전망이 제기되며 외국인 매도세가 집중된 것으로 보입니다.",
+    "theme": "2차전지, 양극재",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "067310",
+    "company": "하나마이크론",
+    "detected_at": "2026-10-16T15:57:19.797592",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "반도체 후공정(OSAT) 산업의 전반적인 업황 둔화 우려와 고객사의 생산량 조절 가능성으로 인해 외국인 매도세가 나타난 것으로 보입니다.",
+    "theme": "반도체 후공정, OSAT",
+    "watch_score": 6.0
   }
 ]
