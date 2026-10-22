@@ -228,5 +228,35 @@
     "summary": "역사적 신고가를 지속적으로 돌파하며 상승세를 이어가고 있으며, 이는 생명과학 및 진단 분야의 글로벌 리더로서 혁신적 기술 개발과 전략적 인수합병을 통한 시장 확장 기대감이 반영된 것으로 보입니다.",
     "theme": "생명과학 및 진단 기술, 헬스케어 솔루션",
     "watch_score": 7.5
+  },
+  {
+    "ticker": "LLY",
+    "company": "Eli Lilly and Company",
+    "detected_at": "2026-10-22T16:27:21.254323",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "당뇨병 및 비만 치료제 등 혁신 신약 포트폴리오의 강력한 성장세와 시장 기대감으로 역사적 신고가를 경신하며 주가가 급등했습니다.",
+    "theme": "바이오/제약 (혁신 신약, 비만 치료제)",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "VEEV",
+    "company": "Veeva Systems",
+    "detected_at": "2026-10-22T16:27:55.067423",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "생명과학 산업의 디지털 전환 수요 증가에 따른 클라우드 기반 CRM 및 데이터 관리 솔루션 공급 확대 기대감과 52주 신고가 돌파 지속으로 인한 강한 매수세 유입.",
+    "theme": "헬스케어 IT, 클라우드 소프트웨어, 바이오 디지털 전환",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "HEIO",
+    "company": "HEINEKEN",
+    "detected_at": "2026-10-22T16:27:40.432689",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가 신규 돌파 및 아시아 시장 성장과 프리미엄 제품군 확장을 통한 견조한 실적 기대감에 힘입어 상승했습니다.",
+    "theme": "소비재, 프리미엄 맥주, 글로벌 시장 확장",
+    "watch_score": 7.5
   }
 ]
