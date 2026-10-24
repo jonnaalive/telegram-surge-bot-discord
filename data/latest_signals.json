@@ -178,5 +178,55 @@
     "summary": "메시지에 따르면 연기금과 투신권의 순매수가 포착되었습니다. 이는 FC-BGA(플립칩-볼그리드어레이)와 같은 고부가 반도체 기판 수요 증가와 전장용 MLCC(적층세라믹콘덴서) 업황 회복에 대한 기대감이 기관 투자자들의 매수를 이끈 것으로 해석됩니다.",
     "theme": "반도체 기판, MLCC, 전장용 부품",
     "watch_score": 7.2
+  },
+  {
+    "ticker": "TSM",
+    "company": "Taiwan Semiconductor Manufacturing Company",
+    "detected_at": "2026-10-24T15:13:56.518364",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "인공지능(AI) 수요 지속과 파운드리 시장 지배력을 바탕으로 무디스의 신용등급이 상향 조정되었고, 중국의 수출 규제에 대비한 희토류 부품 대체 노력 소식이 전해지며 반도체 업종 전반의 매수세에 힘입어 상승했습니다.",
+    "theme": "AI반도체 (파운드리), 시스템반도체, 공급망 안정화",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "unknown (비상장)",
+    "company": "Space Exploration Technologies",
+    "detected_at": "2026-10-24T15:13:56.518362",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "스페이스X가 미국 내 대규모 통신탑 부지 확보를 위한 협상에 나서며 제4 이동통신사 진출을 본격 추진한다는 소식과 주요 투자은행들의 목표주가 상향이 이어지며 기업 가치에 긍정적인 영향을 미쳤습니다.",
+    "theme": "우주항공, 위성통신, 혁신기술",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "000660",
+    "company": "SK hynix",
+    "detected_at": "2026-10-24T15:13:56.518348",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "자회사 솔리다임(Solidigm)의 미국 증시 상장 추진 철회 결정으로 중복 상장 및 지분 가치 희석에 대한 우려가 해소되었으며, 직전 거래일 급락 이후 반도체 업종 전반에 반등세가 유입된 영향을 받았습니다.",
+    "theme": "AI반도체, 메모리반도체, 반도체 업황 개선",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "MU",
+    "company": "Micron Technology",
+    "detected_at": "2026-10-24T15:13:56.518355",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "경쟁사의 사업부 상장 철회로 인한 낸드 플래시 공급 과잉 우려가 완화되었고, 전일 급락에 따른 저가 매수세가 유입되었습니다. 아울러 인공지능(AI) 및 기업용 메모리 수요에 대한 견조한 성장 전망이 주가 반등을 뒷받침했습니다.",
+    "theme": "AI반도체, 메모리반도체",
+    "watch_score": 7.8
+  },
+  {
+    "ticker": "LLY",
+    "company": "Eli Lilly and Company",
+    "detected_at": "2026-10-24T15:13:56.518366",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "최근 주가 급등에 따른 차익 실현 매물이 출회되었고, 실적 발표를 앞두고 주력 치료제의 순약가 동향 및 수익성에 대한 시장의 경계감이 작용했습니다.",
+    "theme": "제약바이오, 비만치료제",
+    "watch_score": 7.0
   }
 ]
