@@ -1,15 +1,5 @@
 [
   {
-    "ticker": "TMO",
-    "company": "Thermo Fisher Scientific",
-    "detected_at": "2026-10-21T16:26:47.356154",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "역사적 신고가를 지속적으로 돌파하며 상승세를 이어가고 있으며, 이는 생명과학 및 진단 분야의 글로벌 리더로서 혁신적 기술 개발과 전략적 인수합병을 통한 시장 확장 기대감이 반영된 것으로 보입니다.",
-    "theme": "생명과학 및 진단 기술, 헬스케어 솔루션",
-    "watch_score": 7.5
-  },
-  {
     "ticker": "LLY",
     "company": "Eli Lilly and Company",
     "detected_at": "2026-10-22T16:27:21.254323",
@@ -328,5 +318,155 @@
     "summary": "미국 시장의 긍정적 흐름에 따른 반도체 코스닥 중소형주 전반의 강세 기대감과 반도체 장비 시장에서의 경쟁력 강화 및 글로벌 시장 점유율 확대 전망이 부각되었습니다.",
     "theme": "반도체 장비, 플라즈마 발생장치, AI 반도체 (간접)",
     "watch_score": 7.0
+  },
+  {
+    "ticker": "TSM",
+    "company": "Taiwan Semiconductor Manufacturing Company",
+    "detected_at": "2026-10-28T17:47:26.264021",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "필라델피아 반도체 지수 급등 및 Logic & Analog Chips 섹터 상승에 동반 상승했습니다. AI 반도체 등 첨단 칩 생산을 위한 파운드리 수요 증가 기대감이 작용한 것으로 보입니다.",
+    "theme": "파운드리, AI 반도체, 첨단 공정",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "TMO",
+    "company": "Thermo Fisher Scientific",
+    "detected_at": "2026-10-28T17:46:52.741014",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가를 다시 돌파하며 강한 상승 모멘텀을 보였고, 생명과학 및 진단 분야의 글로벌 리더로서 혁신적 기술 개발과 전략적 인수합병을 통한 시장 확장이 지속적인 성장을 견인하고 있습니다.",
+    "theme": "생명과학/진단 장비 및 시약",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-10-28T17:46:59.848609",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "SK하이닉스의 긍정적인 실적 발표가 AI 관련 주식 전반에 대한 낙관론을 강화하며 투자 심리를 크게 개선시켰습니다.",
+    "theme": "AI반도체, 메모리 반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "AVGO",
+    "company": "Broadcom",
+    "detected_at": "2026-10-28T17:47:26.264014",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "Nasdaq과 S&P 500 상승, 필라델피아 반도체 지수 급등의 주요 원인으로 지목되었으며, AI 관련 칩 및 네트워킹 솔루션 수요 증가에 대한 기대감이 반영된 것으로 보입니다.",
+    "theme": "AI반도체, 통신 반도체, 데이터센터, 소프트웨어",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "TSLA",
+    "company": "Tesla",
+    "detected_at": "2026-10-28T17:47:26.264017",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "60일 신고가를 기록하며 시장의 강한 관심을 받았으며, 이는 전기차 수요 회복 기대감, 자율주행 기술 발전 또는 투자심리 개선 등 복합적인 요인에 기인한 것으로 보입니다.",
+    "theme": "전기차, 자율주행, 에너지 저장 시스템(ESS), AI, 로봇",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "003160",
+    "company": "디아이",
+    "detected_at": "2026-10-28T17:47:55.057959",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "삼성과 SK하이닉스의 대규모 수주 기대감과 HBM4 테스터 공급으로 인한 기술력 입증 및 시장 경쟁력 강화 소식에 주가가 상승했습니다.",
+    "theme": "HBM, 반도체 테스트 장비",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "034730",
+    "company": "SK",
+    "detected_at": "2026-10-28T17:47:26.264009",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "메시지 내 미국 증시에서 SK hynix의 강세(+2.82%)와 필라델피아 반도체 지수 급등이 언급된 점을 미루어 볼 때, 주요 자회사인 SK hynix의 실적 및 성장 기대감이 지주사인 SK에 긍정적인 영향을 미친 것으로 판단됩니다.",
+    "theme": "지주회사, 반도체, AI, 에너지",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "MU",
+    "company": "Micron Technology",
+    "detected_at": "2026-10-28T17:47:26.264019",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "필라델피아 반도체 지수 급등과 Memory & Semicap 섹터의 상승세에 힘입어 동반 상승했습니다. AI 시장 성장에 따른 고대역폭 메모리(HBM) 수요 증가 기대감이 반영된 것으로 보입니다.",
+    "theme": "메모리 반도체 (DRAM, NAND), AI 반도체 (HBM)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "092700",
+    "company": "엑시콘",
+    "detected_at": "2026-10-28T17:47:55.057951",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "차세대 CXL 3.1 테스터 상용화 추진 기대감과 CLT 독점 공급을 통한 실적 레버리지 본격화 전망에 따라 주가가 상승했습니다.",
+    "theme": "CXL, 반도체 테스트 장비",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "297170",
+    "company": "티에프이",
+    "detected_at": "2026-10-28T17:47:55.057955",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "차세대 '소캠2' 양산 본격화 및 해외 고객사 확대로 인한 실적 성장 기대감과 반도체 테스트 솔루션의 차별화된 Total Solution 제공에 따른 경쟁력 강화 전망으로 주가가 상승했습니다.",
+    "theme": "반도체 테스트 솔루션, 소켓",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "064290",
+    "company": "인텍플러스",
+    "detected_at": "2026-10-28T17:47:55.057961",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "반도체 검사 장비 수주 확대에 따른 3분기 매출 반등 기대감과 309억원 규모의 반도체 Substrate 검사 장비 추가 계약 체결 호재로 주가가 상승했습니다.",
+    "theme": "반도체 검사 장비, Substrate 검사",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "105740",
+    "company": "디케이락",
+    "detected_at": "2026-10-28T17:48:04.627766",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "반도체 고객사의 CAPEX(설비투자) 재개에 대한 기대감과 원전 관련주 강세에 따른 디케이락 제품 수요 증가 전망이 복합적으로 작용하여 주가가 상승했습니다.",
+    "theme": "반도체 장비, 원전",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "SOFI",
+    "company": "SoFi Technologies",
+    "detected_at": "2026-10-28T17:47:26.264016",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "메시지에서 긍정적 실적 발표가 기술주 랠리에 기여했다고 언급되어, 시장의 기대를 뛰어넘는 실적을 발표하며 투자심리가 개선된 것으로 풀이됩니다.",
+    "theme": "핀테크, 디지털 뱅킹, 개인 금융 서비스",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "028050",
+    "company": "삼성E&A",
+    "detected_at": "2026-10-28T17:47:55.057965",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "3분기 영업이익이 전년 대비 184% 증가하며 실적 서프라이즈를 기록한 것이 호재로 작용했으며, 자사주 소각 발표로 주주가치 제고 기대감이 반영되어 주가가 상승했습니다.",
+    "theme": "EPC, 주주환원, 실적 개선",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "078350",
+    "company": "한양디지텍",
+    "detected_at": "2026-10-28T17:47:55.057963",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "반도체 재료/부품 테마 상승세에 따른 주가 상승 기대감과 2분기 영업이익 흑자전환 소식에 긍정적인 전망이 더해지며 주가가 상승했습니다.",
+    "theme": "반도체 재료/부품, 실적 턴어라운드",
+    "watch_score": 6.0
   }
 ]
