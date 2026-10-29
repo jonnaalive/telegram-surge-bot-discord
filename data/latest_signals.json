@@ -1,35 +1,5 @@
 [
   {
-    "ticker": "LLY",
-    "company": "Eli Lilly and Company",
-    "detected_at": "2026-10-22T16:27:21.254323",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "당뇨병 및 비만 치료제 등 혁신 신약 포트폴리오의 강력한 성장세와 시장 기대감으로 역사적 신고가를 경신하며 주가가 급등했습니다.",
-    "theme": "바이오/제약 (혁신 신약, 비만 치료제)",
-    "watch_score": 9.0
-  },
-  {
-    "ticker": "VEEV",
-    "company": "Veeva Systems",
-    "detected_at": "2026-10-22T16:27:55.067423",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "생명과학 산업의 디지털 전환 수요 증가에 따른 클라우드 기반 CRM 및 데이터 관리 솔루션 공급 확대 기대감과 52주 신고가 돌파 지속으로 인한 강한 매수세 유입.",
-    "theme": "헬스케어 IT, 클라우드 소프트웨어, 바이오 디지털 전환",
-    "watch_score": 8.0
-  },
-  {
-    "ticker": "HEIO",
-    "company": "HEINEKEN",
-    "detected_at": "2026-10-22T16:27:40.432689",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "52주 신고가 신규 돌파 및 아시아 시장 성장과 프리미엄 제품군 확장을 통한 견조한 실적 기대감에 힘입어 상승했습니다.",
-    "theme": "소비재, 프리미엄 맥주, 글로벌 시장 확장",
-    "watch_score": 7.5
-  },
-  {
     "ticker": "AAPL",
     "company": "Apple",
     "detected_at": "2026-10-23T16:17:00.196166",
@@ -467,6 +437,176 @@
     "signal": "price_surge",
     "summary": "반도체 재료/부품 테마 상승세에 따른 주가 상승 기대감과 2분기 영업이익 흑자전환 소식에 긍정적인 전망이 더해지며 주가가 상승했습니다.",
     "theme": "반도체 재료/부품, 실적 턴어라운드",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "V",
+    "company": "비자 (Visa)",
+    "detected_at": "2026-10-29T17:54:51.121202",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 소비 지출의 견고한 증가와 디지털 결제 시스템의 광범위한 확산이 비자의 거래량 및 수수료 수익을 급증시켰습니다. 이는 경제 활동 재개 및 강력한 소비 회복 기대감에 기인합니다.",
+    "theme": "핀테크 (디지털 결제)",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "LLY",
+    "company": "Eli Lilly and Company",
+    "detected_at": "2026-10-29T17:54:27.067072",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가 돌파를 이어가며 강한 상승세를 보였으며, 이는 신약 개발 역량 및 강력한 제품 포트폴리오에 대한 시장의 높은 기대를 반영합니다.",
+    "theme": "헬스케어, 바이오, 신약 개발, 당뇨/비만 치료제",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-10-29T17:56:06.631501",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 기준, AI 반도체 수요 폭증에 따른 고대역폭 메모리(HBM) 시장의 주도권 강화 및 파운드리 사업의 기술 경쟁력 확보 기대감이 주가 급등의 주요 동력으로 작용하고 있습니다.",
+    "theme": "AI 반도체, HBM, 메모리 반도체, 파운드리",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-10-29T17:56:22.910621",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "고대역폭 메모리(HBM) 시장의 독보적인 리더십과 AI 반도체 수요 폭증에 대한 기대감이 지속적으로 반영되며 주가가 급등했을 가능성이 높습니다. 기관의 순매도는 단기적인 차익 실현이나 포트폴리오 재조정으로 해석될 수 있습니다.",
+    "theme": "AI 반도체, HBM, 메모리 반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "ABBV",
+    "company": "AbbVie",
+    "detected_at": "2026-10-29T17:54:14.289645",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가를 다시 돌파하며 시장의 강력한 자신감과 면역학 및 종양학 분야에서의 지속적인 신약 개발 및 제품 포트폴리오 강화를 긍정적으로 평가하고 있음을 시사합니다.",
+    "theme": "바이오제약 (면역학, 종양학)",
+    "watch_score": 8.8
+  },
+  {
+    "ticker": "TMO",
+    "company": "Thermo Fisher Scientific",
+    "detected_at": "2026-10-29T17:54:07.221609",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가를 돌파하며 강세를 보이고 있음.",
+    "theme": "생명과학 및 진단, 의료기기, 헬스케어",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "MA",
+    "company": "Mastercard",
+    "detected_at": "2026-10-29T17:54:19.225061",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 디지털 결제 시장의 성장을 바탕으로 역사적 신고가를 돌파하며 강력한 상승 모멘텀을 이어가고 있습니다.",
+    "theme": "디지털 결제 / 핀테크",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "unknown",
+    "company": "Industrial and Commercial Bank of China",
+    "detected_at": "2026-10-29T17:55:53.318867",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 신용평가사 피치의 독자생존등급 상향 조정과 JP모건의 투자의견 상향 조정 (비중확대)이 낮은 이익 변동성과 견고한 배당 매력을 근거로 제시되며 역사적 신고가를 기록했습니다.",
+    "theme": "은행 (중국)",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "CHL",
+    "company": "China Mobile",
+    "detected_at": "2026-10-29T17:55:53.318873",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "대규모 인공지능(AI) 장비 조달에 따른 컴퓨팅 파워 인프라 투자 가속화와 함께, 견조한 현금흐름과 안정적인 고배당 정책에 대한 긍정적인 평가가 반영되어 상승했습니다.",
+    "theme": "통신 (AI 인프라)",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "HEIA",
+    "company": "하이네켄 (HEINEKEN)",
+    "detected_at": "2026-10-29T17:54:51.121197",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가 신규 돌파는 견조한 실적과 프리미엄 제품군 강화 전략이 성공적으로 시장에 안착했음을 보여줍니다. 특히 아시아 시장에서의 성장이 긍정적인 투자 심리를 이끌었습니다.",
+    "theme": "필수소비재 (주류)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "PTR",
+    "company": "PetroChina Company",
+    "detected_at": "2026-10-29T17:55:53.318862",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "국제 유가 상승, 천연가스 생산량 증가, 비용 절감 효과에 힘입어 분기 순이익이 크게 증가하는 등 호실적을 발표하며 역사적 신고가를 기록했습니다.",
+    "theme": "에너지",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "034020",
+    "company": "두산에너빌리티",
+    "detected_at": "2026-10-29T17:56:06.631507",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 기준, 소형모듈원자로(SMR) 기술의 상용화 기대감 고조 및 신규 수주 확대, 그리고 글로벌 친환경 에너지 전환 정책에 따른 해상풍력 등 신재생에너지 사업의 성장 잠재력이 부각되며 주가가 강세를 보이고 있습니다.",
+    "theme": "원자력 발전 (SMR), 신재생에너지 (해상풍력), 친환경 에너지",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "HEIO",
+    "company": "HEINEKEN",
+    "detected_at": "2026-10-29T17:55:14.617326",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 맥주 제조업체 하이네켄이 52주 신고가를 돌파하며 견고한 상승세를 이어가고 있으며, 아시아 시장 매출 증가와 프리미엄 제품군 확장이 주요 성장 동력으로 작용하고 있습니다.",
+    "theme": "프리미엄 소비재",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "MRK",
+    "company": "MERCK",
+    "detected_at": "2026-10-29T17:55:26.270038",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가 신규 돌파는 물론, 바이오의약품, 생명과학 연구용 시약, 반도체 소재 등 다각화된 사업 포트폴리오를 통한 견조한 성장세와 혁신적인 R&D 역량에 대한 시장의 긍정적인 평가가 반영된 것으로 보입니다.",
+    "theme": "헬스케어/제약, 생명과학, 첨단소재",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "009150",
+    "company": "삼성전기",
+    "detected_at": "2026-10-29T17:56:22.910629",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "MLCC(적층세라믹콘덴서) 업황 회복 기대감과 AI 및 전장용 고부가 MLCC 수요 증가, 그리고 반도체 패키지 기판 및 카메라 모듈 사업의 성장성이 부각되며 주가가 급등한 것으로 보입니다. 기관의 순매도는 단기적인 가격 상승에 따른 차익 실현의 성격이 강합니다.",
+    "theme": "MLCC, 반도체 패키지 기판, 전장부품, 카메라 모듈",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "011070",
+    "company": "LG이노텍",
+    "detected_at": "2026-10-29T17:56:41.016473",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 10월 29일 LG이노텍의 주가 급등은 주력 고객사 애플의 아이폰 판매 호조 전망 또는 차세대 XR(확장현실) 기기 핵심 부품 공급 계약 발표에 따른 기대감이 반영된 것으로 보입니다. 전장 부품 사업의 가파른 성장세 역시 주가에 긍정적인 영향을 미쳤을 수 있습니다. 외국인 순매도는 이러한 호재에도 불구하고 단기적인 주가 고점에 대한 경계심이나 차익 실현 의도로 해석될 수 있습니다.",
+    "theme": "XR/AR, 전장부품, 고성능 스마트폰 부품",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "MUFG",
+    "company": "Mitsubishi UFJ Financial Group",
+    "detected_at": "2026-10-29T17:55:53.318870",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "메시지에는 구체적인 상승 사유가 명시되어 있지 않으나, 일본 시장의 예외적 강세 속에서 아시아 금융주 전반의 긍정적 흐름에 동조하여 상승한 것으로 추정됩니다.",
+    "theme": "은행 (일본)",
     "watch_score": 6.0
   }
 ]
