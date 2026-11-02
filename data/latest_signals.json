@@ -738,5 +738,15 @@
     "summary": "애널리스트 예상치를 상회하는 대규모 CapEx 발표로 인한 일시적인 주가 하락이 매수 기회로 평가되었습니다.",
     "theme": "빅테크, AI, 클라우드 컴퓨팅",
     "watch_score": 9.0
+  },
+  {
+    "ticker": "PFE",
+    "company": "화이자",
+    "detected_at": "2026-11-02T21:16:04.221585",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가 돌파를 이어가며 강한 상승 모멘텀을 보여주고 있으며, mRNA 기술 기반 백신 개발 및 신약 파이프라인 확대를 통한 시장 점유율 확대 기대감이 반영되고 있습니다.",
+    "theme": "바이오 (mRNA 백신, 신약개발)",
+    "watch_score": 8.0
   }
 ]
