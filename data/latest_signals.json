@@ -1,35 +1,5 @@
 [
   {
-    "ticker": "MSFT",
-    "company": "Microsoft",
-    "detected_at": "2026-11-01T17:30:23.277725",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "애널리스트 예상치를 상회하는 대규모 CapEx 발표로 인한 일시적인 주가 하락이 매수 기회로 평가되었습니다.",
-    "theme": "빅테크, AI, 클라우드 컴퓨팅",
-    "watch_score": 9.0
-  },
-  {
-    "ticker": "META",
-    "company": "Meta Platforms",
-    "detected_at": "2026-11-01T17:30:23.277732",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "애널리스트 예상치를 상회하는 대규모 CapEx 발표로 인한 일시적인 주가 하락이 매수 기회로 평가되었습니다.",
-    "theme": "빅테크, AI, 클라우드 컴퓨팅",
-    "watch_score": 9.0
-  },
-  {
-    "ticker": "PFE",
-    "company": "화이자",
-    "detected_at": "2026-11-02T21:16:04.221585",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "52주 신고가 돌파를 이어가며 강한 상승 모멘텀을 보여주고 있으며, mRNA 기술 기반 백신 개발 및 신약 파이프라인 확대를 통한 시장 점유율 확대 기대감이 반영되고 있습니다.",
-    "theme": "바이오 (mRNA 백신, 신약개발)",
-    "watch_score": 8.0
-  },
-  {
     "ticker": "AAPL",
     "company": "Apple",
     "detected_at": "2026-11-04T19:14:19.920692",
@@ -198,5 +168,135 @@
     "summary": "11월 6일 4.6% 하락하며 2,135 대만달러를 기록했음.",
     "theme": "AI 반도체, 반도체 파운드리 (선단공정)",
     "watch_score": 9.0
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-11-09T21:51:52.247834",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI용 HBM 시장에서의 선도적인 지위와 기술 경쟁력 부각으로 투자심리가 개선되었으며, 당일 기관의 강한 순매수세가 유입되며 주가 상승을 견인했습니다.",
+    "theme": "AI반도체, 메모리 반도체 (HBM)",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "JNJ",
+    "company": "Johnson & Johnson",
+    "detected_at": "2026-11-09T21:50:46.730629",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가를 다시 돌파하며 강한 매수세를 보였습니다. 이는 헬스케어 및 소비재 분야의 글로벌 리더십과 혁신적인 신약 개발에 대한 시장의 높은 기대감이 반영된 결과로 풀이됩니다.",
+    "theme": "바이오/헬스케어",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-11-09T21:51:52.247830",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 반도체 수요 증가와 HBM(고대역폭 메모리) 시장 성장에 대한 기대감이 반영되었으며, 당일 기관 순매수세가 포착되어 주가 상승에 긍정적인 영향을 미쳤습니다.",
+    "theme": "AI반도체, 메모리 반도체, 빅테크",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "196170",
+    "company": "알테오젠",
+    "detected_at": "2026-11-09T21:52:33.189405",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 11월 기준, SC 제형 변형 플랫폼(ALT-B4)의 기술 이전 파트너사로부터의 대규모 마일스톤 유입 기대감 및 추가 기술 이전 계약 가능성이 부각되며 주가 상승을 이끌었습니다. 바이오시밀러 파이프라인의 임상 진전도 긍정적입니다.",
+    "theme": "바이오, SC 제형, 플랫폼 기술",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "TMO",
+    "company": "Thermo Fisher Scientific",
+    "detected_at": "2026-11-09T21:50:33.739528",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "생명과학 및 진단 분야 글로벌 리더로서 혁신 기술 개발과 전략적 M&A를 통한 시장 확장 전략이 주효하며, 역사적 신고가 돌파는 견고한 펀더멘털과 미래 성장 기대감을 반영한다.",
+    "theme": "생명과학 및 진단 (Life Science & Diagnostics)",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "MSFT",
+    "company": "마이크로소프트",
+    "detected_at": "2026-11-09T21:51:25.479088",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 선도기업 앤스로픽(Anthropic)과의 컴퓨팅 계약이 11월부터 시작되며, 이는 AI 인프라 제공자로서의 마이크로소프트의 역할 강화와 AI 생태계 내 영향력 확대에 대한 기대감을 높였습니다.",
+    "theme": "AI 인프라, 클라우드 컴퓨팅, 빅테크",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "006400",
+    "company": "삼성SDI",
+    "detected_at": "2026-11-09T21:52:13.435860",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 기준 차세대 전고체 배터리 기술 상용화에 대한 기대감이 고조되며 기업 가치가 재평가되었습니다. 프리미엄 전기차 및 에너지 저장장치(ESS) 시장에서의 견조한 점유율 유지와 안정적인 고객사 확보가 긍정적으로 작용했습니다. 외국인 순매도에도 불구하고 성장성에 대한 기대감이 우위를 점했습니다.",
+    "theme": "2차전지, 전고체 배터리, 전기차, ESS",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "112610",
+    "company": "씨에스윈드",
+    "detected_at": "2026-11-09T21:52:33.189407",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 11월 기준, 글로벌 신재생에너지 정책 강화 및 해상풍력 시장의 고성장 지속에 따른 수주 증가 기대감이 주가를 밀어 올렸습니다. 미국 IRA(인플레이션 감축법) 수혜 및 생산 기지 확장 효과도 긍정적입니다.",
+    "theme": "신재생에너지, 풍력에너지, 탄소중립, ESG",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "DIS",
+    "company": "Walt Disney",
+    "detected_at": "2026-11-09T21:51:04.190693",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "일본 Oriental Land의 52주 신고가 돌파 및 테마파크 사업 호조는 글로벌 리오프닝과 엔터테인먼트 수요 회복을 시사하며, 이는 디즈니의 강력한 테마파크 및 리조트 부문 실적 개선 기대감으로 이어집니다.",
+    "theme": "리오프닝(관광), 엔터테인먼트, 미디어, 스트리밍",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "META",
+    "company": "메타 플랫폼스",
+    "detected_at": "2026-11-09T21:51:18.288324",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "JP모건이 메타 플랫폼스를 '애널리스트 포커스 리스트(핵심 추천 종목)'에 편입하고 '비중확대' 투자의견과 목표주가 940달러를 유지하며, AI 기반 광고 성과 개선과 '뮤즈'의 수익화 잠재력을 높게 평가했기 때문입니다.",
+    "theme": "빅테크, AI, 디지털 광고, 소셜 미디어",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "035420",
+    "company": "NAVER",
+    "detected_at": "2026-11-09T21:52:33.189402",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 11월 기준, AI 기반 검색 및 광고 사업 강화, 커머스 생태계 확장, 웹툰 등 콘텐츠 사업의 글로벌 성장 가속화가 투자심리를 긍정적으로 자극했습니다. 플랫폼 경쟁력 강화 기대감도 반영되었습니다.",
+    "theme": "빅테크, AI, 커머스, 콘텐츠",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "000810",
+    "company": "삼성화재",
+    "detected_at": "2026-11-09T21:51:35.725137",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "보험 산업의 새 회계기준(IFRS17) 도입 효과로 인한 견조한 실적 개선 기대감과 함께 안정적인 손해율 관리, 그리고 높은 배당 매력 부각이 외국인 순매수를 유치하며 주가 상승을 이끌었습니다.",
+    "theme": "보험, 금융, 배당주, IFRS17 수혜주",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "035720",
+    "company": "카카오",
+    "detected_at": "2026-11-09T21:52:13.435858",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 기준 AI 기반 서비스 확장 및 플랫폼 경쟁력 강화 노력이 긍정적인 평가를 받았습니다. 콘텐츠, 모빌리티 등 신사업의 성장세가 가속화되고 비용 효율화 노력을 통한 수익성 개선 기대감이 반영되며 투자 심리가 회복되었습니다. 외국인 순매수가 동반되었습니다.",
+    "theme": "빅테크, 플랫폼, AI 서비스, 콘텐츠",
+    "watch_score": 7.5
   }
 ]
