@@ -1,175 +1,5 @@
 [
   {
-    "ticker": "AAPL",
-    "company": "Apple",
-    "detected_at": "2026-11-04T19:14:19.920692",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "AI 기반 서비스 및 웨어러블 기기 시장에서의 두각과 아이폰, 서비스 부문의 지속적인 수익 창출 능력에 힘입어 역사적 신고가를 다시 돌파하며 급등했습니다.",
-    "theme": "빅테크, AI, 소비자 전자제품, 서비스",
-    "watch_score": 9.0
-  },
-  {
-    "ticker": "V",
-    "company": "Visa",
-    "detected_at": "2026-11-04T19:14:34.876887",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "역사적 신고가를 돌파하며 강한 상승세를 이어갔습니다. 이는 글로벌 디지털 결제 시장의 지속적인 성장과 Visa의 견고한 시장 지배력이 반영된 결과로 판단됩니다.",
-    "theme": "디지털 결제, 글로벌 금융 서비스",
-    "watch_score": 8.0
-  },
-  {
-    "ticker": "SQ",
-    "company": "Block",
-    "detected_at": "2026-11-04T19:14:27.730662",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "Block은 암호화폐 관련 서비스 확장과 파트너십 체결을 통해 디지털 자산 관리 및 결제 솔루션 분야에서 시장 점유율을 늘리며 52주 신고가를 경신했습니다.",
-    "theme": "핀테크 (블록체인/디지털 자산)",
-    "watch_score": 7.5
-  },
-  {
-    "ticker": "LLY",
-    "company": "Eli Lilly and Company",
-    "detected_at": "2026-11-05T19:20:56.736507",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "신약 개발 역량을 바탕으로 당뇨병, 비만, 면역질환 등 주요 치료제 시장에서 강력한 제품 포트폴리오를 보유하며 역사적 신고가 행진을 이어가고 있습니다. 특히 GLP-1 계열 비만/당뇨 치료제의 폭발적인 성장이 기대됩니다.",
-    "theme": "바이오 제약 / 혁신 신약 (GLP-1)",
-    "watch_score": 9.0
-  },
-  {
-    "ticker": "000660",
-    "company": "SK하이닉스",
-    "detected_at": "2026-11-06T18:46:57.724590",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "AI 산업 성장에 따른 고대역폭 메모리(HBM) 수요 폭증과 메모리 반도체 업황 회복 기대감으로 기관의 강력한 순매수가 유입되었습니다.",
-    "theme": "AI반도체, 메모리반도체, HBM",
-    "watch_score": 9.2
-  },
-  {
-    "ticker": "005930",
-    "company": "삼성전자",
-    "detected_at": "2026-11-06T18:46:47.301673",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "AI 반도체 수요 증가에 따른 HBM 등 고부가가치 메모리 업황 회복 기대감과 파운드리 경쟁력 강화, 그리고 갤럭시 S26 시리즈 등 신형 스마트폰 출시 모멘텀 등으로 주가에 긍정적인 영향이 미치고 있습니다.",
-    "theme": "AI반도체, 메모리반도체, 스마트폰, 파운드리",
-    "watch_score": 8.5
-  },
-  {
-    "ticker": "035420",
-    "company": "NAVER",
-    "detected_at": "2026-11-06T18:46:57.724599",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "생성형 AI 서비스 도입을 통한 플랫폼 경쟁력 강화 기대, 이커머스 사업의 꾸준한 성장, 그리고 웹툰 등 글로벌 콘텐츠 사업 확장이 기관의 긍정적인 평가를 받았습니다.",
-    "theme": "빅테크, AI, 이커머스, 클라우드",
-    "watch_score": 8.5
-  },
-  {
-    "ticker": "GOOGL",
-    "company": "알파벳",
-    "detected_at": "2026-11-06T18:46:23.091022",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "시장 전반의 하락세와 주요 고객사의 실적 부진 우려에도 불구하고, 최근 발표된 차세대 AI 모델의 상업화 성공 소식과 예상치를 뛰어넘는 클라우드 부문 성장 지표가 투자 심리를 크게 개선시키며 급등했습니다.",
-    "theme": "빅테크, AI, 클라우드 컴퓨팅, 디지털 광고",
-    "watch_score": 8.0
-  },
-  {
-    "ticker": "009150",
-    "company": "삼성전기",
-    "detected_at": "2026-11-06T18:46:47.301683",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "스마트폰 및 전장용 MLCC(적층세라믹콘덴서) 수요 회복 기대감과 고성능 패키징 기판(FC-BGA) 사업의 성장성 부각, 그리고 AI 기기 확산에 따른 수혜 기대감이 외국인 매수세를 이끌며 주가 상승에 기여하고 있습니다.",
-    "theme": "MLCC, FC-BGA, 전장부품, AI 기기 부품",
-    "watch_score": 8.0
-  },
-  {
-    "ticker": "068270",
-    "company": "셀트리온",
-    "detected_at": "2026-11-06T18:46:57.724596",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "바이오시밀러 시장의 견조한 성장세와 신규 파이프라인 개발 기대감, 그리고 합병 시너지 효과에 대한 긍정적 전망이 기관 순매수를 이끌었습니다.",
-    "theme": "바이오시밀러, 제약/바이오, CMO",
-    "watch_score": 7.8
-  },
-  {
-    "ticker": "NVDA",
-    "company": "NVIDIA",
-    "detected_at": "2026-11-06T18:46:23.091018",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "AI 규제 우려로 기술주 및 반도체 관련 주식 전반이 급락했으며, 특히 필라델피아 반도체 지수가 큰 폭으로 하락하면서 부정적인 시장 심리가 반영되어 주가가 하락했습니다.",
-    "theme": "AI반도체, 데이터센터, 클라우드 컴퓨팅",
-    "watch_score": 7.5
-  },
-  {
-    "ticker": "105560",
-    "company": "KB금융",
-    "detected_at": "2026-11-06T18:46:47.301681",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "금리 인상 사이클 속 순이자마진(NIM) 확대 기대감과 함께 정부의 주주환원 정책 강화 기조, 저PBR(주가순자산비율) 관련 매력 부각으로 외국인 매수세가 유입되며 주가가 상승하고 있습니다.",
-    "theme": "은행, 금융, 저PBR, 주주환원",
-    "watch_score": 7.5
-  },
-  {
-    "ticker": "TSM",
-    "company": "Taiwan Semiconductor Manufacturing Company",
-    "detected_at": "2026-11-06T18:46:23.091001",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "AI 규제 우려로 기술주 및 반도체 관련 주식이 급락했으며, 특히 필라델피아 반도체 지수의 큰 하락세에 동조하며 큰 폭으로 하락했습니다.",
-    "theme": "AI반도체, 파운드리, 기술주",
-    "watch_score": 7.0
-  },
-  {
-    "ticker": "030200",
-    "company": "KT",
-    "detected_at": "2026-11-06T18:46:47.301686",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "통신 본업의 안정적인 실적과 더불어 클라우드, AI, IDC 등 신사업 성장 기대감, 그리고 적극적인 주주환원 정책에 대한 시장의 긍정적인 평가가 주가 상승에 영향을 미치고 있습니다.",
-    "theme": "통신, 5G, AI, 클라우드, 주주환원",
-    "watch_score": 7.0
-  },
-  {
-    "ticker": "AVGO",
-    "company": "Broadcom",
-    "detected_at": "2026-11-06T18:46:23.091015",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "주요 고객사인 알파벳의 실적 부진과 인공지능 인프라 투자 비용 급증으로 반도체 수요 둔화 우려가 확산되었으며, 앤스로픽 지원을 위한 대규모 우발 채무 보증 부담도 하락에 영향을 미쳤습니다.",
-    "theme": "AI반도체, 통신반도체, 소프트웨어 인프라",
-    "watch_score": 6.5
-  },
-  {
-    "ticker": "SpaceX",
-    "company": "Space Exploration Technologies",
-    "detected_at": "2026-11-06T18:46:23.091020",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "미국 루이지애나주 우주기지 개발 사업의 세제 혜택 협약 관련 공개회의법 위반 소송이 제기되어 법적 불확실성이 확대되었으며, 실적 발표 이후 단기 차익 실현 매물 출회 및 보호예수 해제에 따른 유통 주식 물량 부담이 가중된 점도 영향을 미쳤습니다.",
-    "theme": "우주항공, 위성통신, 발사체 서비스",
-    "watch_score": 6.0
-  },
-  {
-    "ticker": "TSM",
-    "company": "TSMC",
-    "detected_at": "2026-11-07T17:17:09.047549",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "11월 6일 4.6% 하락하며 2,135 대만달러를 기록했음.",
-    "theme": "AI 반도체, 반도체 파운드리 (선단공정)",
-    "watch_score": 9.0
-  },
-  {
     "ticker": "000660",
     "company": "SK하이닉스",
     "detected_at": "2026-11-09T21:51:52.247834",
@@ -298,5 +128,15 @@
     "summary": "2026년 기준 AI 기반 서비스 확장 및 플랫폼 경쟁력 강화 노력이 긍정적인 평가를 받았습니다. 콘텐츠, 모빌리티 등 신사업의 성장세가 가속화되고 비용 효율화 노력을 통한 수익성 개선 기대감이 반영되며 투자 심리가 회복되었습니다. 외국인 순매수가 동반되었습니다.",
     "theme": "빅테크, 플랫폼, AI 서비스, 콘텐츠",
     "watch_score": 7.5
+  },
+  {
+    "ticker": "META",
+    "company": "Meta Platforms",
+    "detected_at": "2026-11-14T17:33:47.768925",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "퍼싱스퀘어의 빌 애크먼 CEO가 메타를 극도로 저평가된 기업으로 평가하고, 풍부한 현금 보유를 바탕으로 인공지능 투자를 원활히 감당할 수 있다고 발언한 영향으로 반등했습니다. 아울러 주요 빅테크 기업들의 호실적이 인공지능 인프라 수요 지속에 대한 신뢰를 형성하며 투자 심리가 개선되었습니다.",
+    "theme": "빅테크, AI (인공지능 투자), 소셜 미디어",
+    "watch_score": 8.5
   }
 ]
