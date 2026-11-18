@@ -188,5 +188,25 @@
     "summary": "PCB 업황 부진 및 고객사 재고 조정 여파, 반도체 업황 회복 지연 우려로 기관 순매도.",
     "theme": "반도체 기판, PCB, AI반도체",
     "watch_score": 6.0
+  },
+  {
+    "ticker": "V",
+    "company": "비자",
+    "detected_at": "2026-11-18T19:51:32.004673",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 소비 지출의 견고한 성장세, 전자상거래 확대로 인한 디지털 결제 거래량 증가, 그리고 효율적인 운영을 통한 수익성 개선 기대감이 주가 상승을 견인했습니다.",
+    "theme": "디지털 결제 (FinTech)",
+    "watch_score": 8.8
+  },
+  {
+    "ticker": "DIS",
+    "company": "The Walt Disney Company",
+    "detected_at": "2026-11-18T19:51:01.994129",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가를 재돌파하며 강한 매수세가 유입되었으며, 이는 스트리밍 서비스의 글로벌 확장 및 콘텐츠 강화 전략에 대한 시장의 긍정적 기대감을 반영합니다.",
+    "theme": "엔터테인먼트 & 미디어",
+    "watch_score": 7.8
   }
 ]
