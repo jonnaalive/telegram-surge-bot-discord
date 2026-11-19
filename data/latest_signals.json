@@ -208,5 +208,195 @@
     "summary": "52주 신고가를 재돌파하며 강한 매수세가 유입되었으며, 이는 스트리밍 서비스의 글로벌 확장 및 콘텐츠 강화 전략에 대한 시장의 긍정적 기대감을 반영합니다.",
     "theme": "엔터테인먼트 & 미디어",
     "watch_score": 7.8
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-11-19T19:52:10.595891",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 기준, 인공지능(AI) 반도체 핵심인 고대역폭 메모리(HBM) 시장의 독보적인 선두 지위와 차세대 HBM 제품 개발 및 양산 성공 기대감으로 인해 급등할 수 있습니다. 특히 HBM4/HBM5의 공급 확대와 신규 고객사 확보 소식이 긍정적으로 작용할 것입니다.",
+    "theme": "AI반도체, 고성능 메모리",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-11-19T19:51:53.293462",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "메시지에서 '삼성전자우'에 대한 외국인 순매도가 언급되었음에도 불구하고 삼성전자(보통주)가 급등했다면, 이는 AI 반도체(HBM) 및 고부가 메모리 시장 성장에 대한 강한 기대감, 파운드리 경쟁력 강화 가능성, 또는 국내 기관 및 개인 투자자의 적극적인 매수세 유입에 기인할 수 있습니다. 외국인 순매도는 단기 차익 실현 성격일 가능성도 배제할 수 없습니다.",
+    "theme": "AI 반도체 (HBM), 고부가 메모리, 파운드리",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "007660",
+    "company": "이수페타시스",
+    "detected_at": "2026-11-19T19:52:50.905235",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "당일 외국인 순매도세가 출회되며 투자 심리가 위축되었습니다. 이는 AI 반도체 관련 테마의 단기 과열에 대한 경계감 또는 차익 실현 매물의 출현으로 풀이됩니다.",
+    "theme": "AI 반도체, 고성능 PCB (MLCC)",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "V",
+    "company": "비자",
+    "detected_at": "2026-11-19T19:51:24.049141",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 경기 회복에 따른 소비 지출 및 디지털 결제 거래량 증가 기대감, 또는 시장 예상을 뛰어넘는 강력한 분기 실적 발표가 급등의 주요 원인으로 추정됩니다.",
+    "theme": "핀테크, 디지털 결제, 글로벌 경제 회복 수혜, 인프라 소프트웨어",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "006400",
+    "company": "삼성SDI",
+    "detected_at": "2026-11-19T19:52:10.595896",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년에는 전고체 배터리의 상용화 가시화 또는 대규모 생산 설비 투자 발표, 프리미엄 전기차 및 에너지저장장치(ESS) 시장의 견고한 수요에 힘입어 실적 개선 기대감으로 급등할 수 있습니다. 신규 배터리 플랫폼의 성공적인 양산도 긍정적 요인입니다.",
+    "theme": "2차전지, 전고체 배터리, 전기차",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "unknown",
+    "company": "빅웨이브로보틱스",
+    "detected_at": "2026-11-19T19:52:50.905230",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도가 출회되며 로봇 산업의 높은 기대감에도 불구하고 단기적인 기술 경쟁 또는 시장 형성 초기 단계의 불확실성이 반영되었을 수 있습니다.",
+    "theme": "로봇, 자동화",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "039130",
+    "company": "하나투어",
+    "detected_at": "2026-11-19T19:53:04.210693",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "한한령 해제 기대감에 따른 중국인 관광객 증가 전망과 한·중 정상 간 FTA 서비스·투자 협상 타결 기대감이 복합적으로 작용하며 주가가 상승했습니다.",
+    "theme": "관광/여행 (중국 리오프닝)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "2702",
+    "company": "McDonald's Holdings Company (Japan)",
+    "detected_at": "2026-11-19T19:51:24.049129",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "일본 내 강력한 브랜드 인지도와 광범위한 매장 네트워크를 기반으로, 현지화 전략 및 디지털 주문 시스템 강화를 통해 매출 성장을 지속하며 역사적 신고가를 돌파했습니다.",
+    "theme": "외식산업, 소비자 경기민감주, 디지털 전환 수혜",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "DIS",
+    "company": "디즈니",
+    "detected_at": "2026-11-19T19:51:36.620341",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "일본 도쿄 디즈니랜드 및 디즈니씨 운영사인 Oriental Land의 52주 신고가 돌파 소식은 글로벌 테마파크 및 관광 산업의 강한 회복세를 시사하며, 이는 세계 최대 테마파크 운영사이자 지적재산권(IP) 보유사인 디즈니에 긍정적인 투자 심리를 형성합니다.",
+    "theme": "테마파크, 엔터테인먼트, 관광",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "017670",
+    "company": "SK텔레콤",
+    "detected_at": "2026-11-19T19:52:10.595899",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년에는 AI 사업의 본격적인 수익화 성공, 6G 상용화 로드맵 구체화 및 선점 기대감, 그리고 구독형 서비스와 IDC 등 신사업 부문의 고성장세가 결합되어 기업 가치 재평가가 이루어지며 급등할 수 있습니다.",
+    "theme": "통신, AI 플랫폼, 신사업 (데이터센터, 구독 서비스)",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "007810",
+    "company": "코리아써키트",
+    "detected_at": "2026-11-19T19:52:50.905219",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수세 유입은 반도체 및 IT 기기 수요 증가와 고부가 PCB 시장 성장에 대한 기대감을 반영합니다. FC-BGA 등 고성능 기판의 경쟁력이 부각되었습니다.",
+    "theme": "PCB, 반도체 후공정",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "263860",
+    "company": "지니언스",
+    "detected_at": "2026-11-19T19:52:50.905223",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도 출회로 보안 솔루션 업황에 대한 단기적인 우려 또는 차익 실현 매물이 출현한 것으로 보입니다. 기술 변화 속도 및 경쟁 심화가 영향을 미쳤을 수 있습니다.",
+    "theme": "사이버 보안 (NAC, EDR)",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "122870",
+    "company": "와이지엔터테인먼트",
+    "detected_at": "2026-11-19T19:52:50.905201",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "당일 외국인 순매수세가 강하게 유입되며 투자 심리가 개선되었고, K-POP 산업의 글로벌 성장 기대감이 주가에 긍정적으로 작용했습니다.",
+    "theme": "엔터테인먼트, K-POP",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "263150",
+    "company": "달바글로벌",
+    "detected_at": "2026-11-19T19:52:50.905212",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수 유입은 K-뷰티의 해외 시장 확장과 브랜드 경쟁력 강화에 대한 기대를 반영합니다. 특히 비건 화장품 트렌드에 부합하는 제품들이 시장의 주목을 받았습니다.",
+    "theme": "화장품, 뷰티",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "035900",
+    "company": "JYP Ent.",
+    "detected_at": "2026-11-19T19:52:50.905221",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도세가 출회되며 투자 심리가 위축되었습니다. 전반적인 K-POP 산업에 대한 차익 실현 움직임 또는 단기 모멘텀 둔화 우려가 반영된 것으로 풀이됩니다.",
+    "theme": "엔터테인먼트, K-POP",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "041510",
+    "company": "에스엠",
+    "detected_at": "2026-11-19T19:52:50.905226",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도가 출회되며 K-POP 산업 내 경쟁 심화 또는 개별 아티스트 활동에 대한 우려가 반영되었습니다. 단기적인 차익 실현 움직임도 관찰됩니다.",
+    "theme": "엔터테인먼트, K-POP",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "035760",
+    "company": "CJ ENM",
+    "detected_at": "2026-11-19T19:52:50.905207",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수가 유입되며 콘텐츠 제작 및 유통 역량에 대한 재평가 기대감이 반영되었습니다. 미디어 콘텐츠 산업의 중요성 증대가 투자 매력을 높였습니다.",
+    "theme": "미디어 콘텐츠, 엔터테인먼트",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "069510",
+    "company": "에스텍",
+    "detected_at": "2026-11-19T19:52:50.905214",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매수세가 유입되며 전장화 트렌드와 음향 기술 발전에 따른 수혜 기대감이 주가에 긍정적인 영향을 미쳤습니다. 스피커 유닛 등 핵심 부품의 수요 증가가 예상됩니다.",
+    "theme": "음향기기 부품, 전장부품",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "253450",
+    "company": "아리바이오랩",
+    "detected_at": "2026-11-19T19:52:50.905228",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "외국인 순매도 출회로 신약 개발 과정의 불확실성 또는 임상 데이터에 대한 시장의 우려가 반영되었을 수 있습니다. 바이오 섹터 전반의 투자 심리 위축도 영향을 주었습니다.",
+    "theme": "바이오, 신약 개발 (치매 치료제)",
+    "watch_score": 6.0
   }
 ]
