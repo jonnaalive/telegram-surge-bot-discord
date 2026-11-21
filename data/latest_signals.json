@@ -1,15 +1,5 @@
 [
   {
-    "ticker": "META",
-    "company": "Meta Platforms",
-    "detected_at": "2026-11-14T17:33:47.768925",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "퍼싱스퀘어의 빌 애크먼 CEO가 메타를 극도로 저평가된 기업으로 평가하고, 풍부한 현금 보유를 바탕으로 인공지능 투자를 원활히 감당할 수 있다고 발언한 영향으로 반등했습니다. 아울러 주요 빅테크 기업들의 호실적이 인공지능 인프라 수요 지속에 대한 신뢰를 형성하며 투자 심리가 개선되었습니다.",
-    "theme": "빅테크, AI (인공지능 투자), 소셜 미디어",
-    "watch_score": 8.5
-  },
-  {
     "ticker": "000660",
     "company": "SK하이닉스",
     "detected_at": "2026-11-16T21:32:33.764733",
@@ -397,6 +387,66 @@
     "signal": "price_drop",
     "summary": "외국인 순매도 출회로 신약 개발 과정의 불확실성 또는 임상 데이터에 대한 시장의 우려가 반영되었을 수 있습니다. 바이오 섹터 전반의 투자 심리 위축도 영향을 주었습니다.",
     "theme": "바이오, 신약 개발 (치매 치료제)",
+    "watch_score": 6.0
+  },
+  {
+    "ticker": "NVDA",
+    "company": "엔비디아",
+    "detected_at": "2026-11-21T18:34:54.107265",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "SEC 조사, 아시아 시장 매출 부진, 전반적인 반도체 업황 악화 및 시장 약세로 주간 23% 폭락하여 2008년 10월 이후 최악의 주간 하락폭을 기록했습니다.",
+    "theme": "AI반도체, 빅테크",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "AMD",
+    "company": "AMD",
+    "detected_at": "2026-11-21T18:34:54.107276",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "전반적인 반도체 업황 악화 및 시장 약세로 주간 21% 하락했습니다.",
+    "theme": "반도체, CPU/GPU",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "GOOGL",
+    "company": "구글",
+    "detected_at": "2026-11-21T18:34:54.107283",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "Mag7 지수에 포함되어 전반적인 시장 약세 속에서 하락세를 보였습니다. 또한 브로드컴에 대한 주문량 감축 소식은 사업 전망에 대한 일부 우려를 야기했습니다.",
+    "theme": "빅테크, AI, 클라우드, 광고",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "MU",
+    "company": "마이크론",
+    "detected_at": "2026-11-21T18:34:54.107273",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "전반적인 반도체 업황 악화 및 시장 약세로 주간 24% 하락했습니다.",
+    "theme": "반도체, 메모리",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "ORCL",
+    "company": "오라클",
+    "detected_at": "2026-11-21T18:34:54.107280",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "전반적인 시장 약세 및 Mag7 지수에 포함된 종목들의 하락세 영향으로 주간 19% 하락했습니다.",
+    "theme": "클라우드, 소프트웨어, 빅테크",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "AVGO",
+    "company": "브로드컴",
+    "detected_at": "2026-11-21T18:34:54.107278",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "구글의 주문량 감축 영향과 전반적인 반도체 업황 악화로 주간 12% 하락했습니다.",
+    "theme": "반도체, 네트워킹",
     "watch_score": 6.0
   }
 ]
