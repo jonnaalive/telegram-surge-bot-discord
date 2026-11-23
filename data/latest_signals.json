@@ -1,185 +1,5 @@
 [
   {
-    "ticker": "000660",
-    "company": "SK하이닉스",
-    "detected_at": "2026-11-16T21:32:33.764733",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "HBM 시장 선도적 지위와 높은 기술력으로 AI 반도체 핵심 수혜주로 부각되며 기관 순매수 집중.",
-    "theme": "AI반도체, HBM, 메모리반도체",
-    "watch_score": 9.5
-  },
-  {
-    "ticker": "COST",
-    "company": "Costco Wholesale",
-    "detected_at": "2026-11-16T21:31:04.926928",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "역사적 신고가를 돌파하며 지속적인 상승 모멘텀을 이어가고 있습니다. 이는 견고한 회원제 기반 비즈니스 모델과 전자상거래 부문 확장 노력이 시장에 긍정적으로 작용한 결과로 보입니다.",
-    "theme": "유통/소비재, 회원제 기반 비즈니스",
-    "watch_score": 9.0
-  },
-  {
-    "ticker": "LLY",
-    "company": "Eli Lilly and Company",
-    "detected_at": "2026-11-16T21:31:13.779982",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "혁신적인 신약 개발과 강력한 제품 포트폴리오를 바탕으로 역사적 신고가를 돌파하며 상승세를 지속하고 있습니다. 특히 당뇨병 및 비만 치료제 시장에서의 독보적인 위치가 주가 상승을 견인하는 핵심 요인으로 분석됩니다.",
-    "theme": "제약/바이오, 비만 치료제",
-    "watch_score": 9.0
-  },
-  {
-    "ticker": "005930",
-    "company": "삼성전자",
-    "detected_at": "2026-11-16T21:32:33.764727",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "AI 반도체 시장 성장에 따른 HBM 수요 증가 및 파운드리 경쟁력 강화 기대감으로 기관 순매수 유입.",
-    "theme": "AI반도체, 메모리반도체, 파운드리, 빅테크",
-    "watch_score": 9.0
-  },
-  {
-    "ticker": "PG",
-    "company": "The Procter & Gamble Company",
-    "detected_at": "2026-11-16T21:30:43.309709",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "소비재 분야의 글로벌 리더로서 스킨케어 및 헬스케어 제품군 확장을 통해 견조한 매출 성장을 이어가며 52주 신고가를 돌파했습니다.",
-    "theme": "글로벌 소비재, 헬스케어/스킨케어 성장",
-    "watch_score": 8.5
-  },
-  {
-    "ticker": "V",
-    "company": "비자 (Visa)",
-    "detected_at": "2026-11-16T21:31:38.941591",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "글로벌 디지털 결제 채택 가속화, 전자상거래 시장의 구조적 성장, 그리고 견조한 소비 지출 증가로 인한 거래량 증대 수혜.",
-    "theme": "디지털 결제, 핀테크, 빅테크",
-    "watch_score": 8.5
-  },
-  {
-    "ticker": "INTC",
-    "company": "인텔",
-    "detected_at": "2026-11-16T21:32:33.764740",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "AI PC 시대 개막 기대감, 파운드리 사업 확장 및 신규 칩 출시 모멘텀으로 투자 심리 개선.",
-    "theme": "AI반도체, CPU, 파운드리, PC",
-    "watch_score": 8.0
-  },
-  {
-    "ticker": "171090",
-    "company": "선익시스템",
-    "detected_at": "2026-11-16T21:32:33.764749",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "마이크로OLED 증착 장비 기술력 부각 및 XR(확장현실) 시장 성장 기대감으로 기관 순매수 유입.",
-    "theme": "XR, 마이크로OLED, 디스플레이 장비, 메타버스",
-    "watch_score": 8.0
-  },
-  {
-    "ticker": "KO",
-    "company": "The Coca-Cola Company",
-    "detected_at": "2026-11-16T21:30:55.137972",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "역사적 신고가를 돌파하며 강세를 이어가고 있으며, 무설탕 제품군 확장 및 신흥 시장에서의 매출 증가세가 긍정적인 영향을 미치고 있습니다.",
-    "theme": "필수 소비재, 비알콜 음료",
-    "watch_score": 7.5
-  },
-  {
-    "ticker": "029460",
-    "company": "마이크로컨텍솔",
-    "detected_at": "2026-11-16T21:32:33.764742",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "반도체 테스트 소켓 및 장비 수요 증가에 따른 실적 개선 기대감으로 기관 순매수 유입.",
-    "theme": "반도체 테스트, 후공정, AI반도체",
-    "watch_score": 7.5
-  },
-  {
-    "ticker": "140660",
-    "company": "와이씨",
-    "detected_at": "2026-11-16T21:32:33.764744",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "반도체 웨이퍼 테스트 장비 국산화 및 HBM 관련 수요 증가 기대감으로 기관 순매수.",
-    "theme": "반도체 테스트 장비, HBM, 국산화",
-    "watch_score": 7.5
-  },
-  {
-    "ticker": "218410",
-    "company": "RFHIC",
-    "detected_at": "2026-11-16T21:32:33.764751",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "5G/6G 통신 인프라 투자 확대 및 방산향 GaN 전력반도체 수요 증가 기대감에 기관 순매수.",
-    "theme": "5G/6G, GaN 전력반도체, 방산",
-    "watch_score": 7.5
-  },
-  {
-    "ticker": "007660",
-    "company": "이수페타시스",
-    "detected_at": "2026-11-16T21:32:33.764738",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "AI 반도체 기판 관련 높은 기대감이 선반영된 후, 기관의 차익 실현 매물 출회. (추출된 종목의 '급등' 표기와 달리, 당일 기관 순매도 기반으로 분석)",
-    "theme": "AI반도체, MLB(다층기판), 반도체 후공정",
-    "watch_score": 7.0
-  },
-  {
-    "ticker": "064000",
-    "company": "SNT모티브",
-    "detected_at": "2026-11-16T21:32:33.764746",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "전기차 구동모터 부품 및 방산 사업의 안정적인 성장 기대감에 기관 순매수.",
-    "theme": "전기차 부품, 방산",
-    "watch_score": 7.0
-  },
-  {
-    "ticker": "031980",
-    "company": "피에스케이홀딩스",
-    "detected_at": "2026-11-16T21:32:33.764757",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "반도체 전공정 장비 업황 회복 기대감이 선반영된 후 기관의 차익 실현 매물 출회.",
-    "theme": "반도체 장비, 전공정, AI반도체",
-    "watch_score": 7.0
-  },
-  {
-    "ticker": "253590",
-    "company": "네오셈",
-    "detected_at": "2026-11-16T21:32:33.764761",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "SSD 검사장비 등 반도체 후공정 장비 업황 회복 기대감 선반영 후, 기관의 차익 실현 매물 출회.",
-    "theme": "반도체 검사장비, SSD, AI반도체",
-    "watch_score": 6.5
-  },
-  {
-    "ticker": "006400",
-    "company": "삼성SDI",
-    "detected_at": "2026-11-16T21:32:33.764736",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "기관의 차익 실현 및 글로벌 전기차 시장 성장 둔화 우려, 경쟁 심화에 대한 반응으로 순매도 출회. (추출된 종목의 '급등' 표기와 달리, 당일 기관 순매도 기반으로 분석)",
-    "theme": "2차전지, 전기차, 에너지저장장치(ESS)",
-    "watch_score": 6.0
-  },
-  {
-    "ticker": "222800",
-    "company": "심텍",
-    "detected_at": "2026-11-16T21:32:33.764759",
-    "source_bot": "surge",
-    "signal": "price_drop",
-    "summary": "PCB 업황 부진 및 고객사 재고 조정 여파, 반도체 업황 회복 지연 우려로 기관 순매도.",
-    "theme": "반도체 기판, PCB, AI반도체",
-    "watch_score": 6.0
-  },
-  {
     "ticker": "V",
     "company": "비자",
     "detected_at": "2026-11-18T19:51:32.004673",
@@ -448,5 +268,175 @@
     "summary": "구글의 주문량 감축 영향과 전반적인 반도체 업황 악화로 주간 12% 하락했습니다.",
     "theme": "반도체, 네트워킹",
     "watch_score": 6.0
+  },
+  {
+    "ticker": "NVDA",
+    "company": "엔비디아",
+    "detected_at": "2026-11-23T23:13:52.971970",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "엔비디아 CEO 젠슨 황의 복귀 소식이 AI 투자 기대감을 크게 높이며 반도체 및 AI 관련 주식 전반에 긍정적 영향을 미쳐 30.86% 급등했습니다.",
+    "theme": "AI반도체",
+    "watch_score": 9.5
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-11-23T23:15:22.215671",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 투자자들의 강한 순매수는 AI 반도체 수요 폭증과 메모리 반도체 업황 회복에 대한 기대감을 반영한 것으로 보입니다. 특히 HBM(고대역폭 메모리) 시장에서의 선도적인 위치가 부각되며 주가 상승을 이끌었습니다.",
+    "theme": "AI반도체, 메모리 반도체 (HBM)",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "098460",
+    "company": "고영",
+    "detected_at": "2026-11-23T23:14:39.267481",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관은 3D 측정 검사 장비 분야의 독보적인 기술력과 AI 기반 스마트 팩토리 솔루션 확장에 대한 기대감으로 순매수했습니다. 반도체 및 전기차 등 전방 산업의 자동화 수요 증가가 긍정적입니다.",
+    "theme": "3D 검사장비, AI, 스마트 팩토리, 반도체 장비",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "095610",
+    "company": "테스",
+    "detected_at": "2026-11-23T23:14:39.267486",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관은 반도체 전공정 장비(증착 장비 등) 기술력에 주목하여 순매수했으며, AI 및 고성능 컴퓨팅 수요 증가에 따른 반도체 산업의 중장기적인 성장에 동사의 수혜를 기대합니다.",
+    "theme": "반도체 장비, 전공정, AI 반도체",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "006400",
+    "company": "삼성SDI",
+    "detected_at": "2026-11-23T23:15:22.215678",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 투자자들의 매수세는 전기차 시장 성장과 함께 프리미엄 배터리 및 차세대 전고체 배터리 개발에 대한 기대감을 반영한 것으로 해석됩니다. 특히 ESS(에너지저장장치) 사업의 확장 가능성도 긍정적으로 작용했을 수 있습니다.",
+    "theme": "2차전지, 전기차, ESS",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-11-23T23:15:41.296056",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "당일 장중 기관 순매수 유입과 함께 반도체 업황 회복에 대한 기대감, 특히 AI 반도체(HBM) 및 파운드리 부문의 성장 전망이 긍정적인 영향을 미쳤습니다.",
+    "theme": "AI반도체, 메모리반도체, 빅테크, 파운드리",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "278470",
+    "company": "에이피알",
+    "detected_at": "2026-11-23T23:14:39.267477",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관은 에이피알이 뷰티 디바이스 시장의 선두주자로서, 혁신적인 기술력과 강력한 브랜드 파워를 기반으로 국내외 시장점유율을 확대할 것이라는 기대감에 순매수했습니다.",
+    "theme": "뷰티 디바이스, K-뷰티, 이커머스",
+    "watch_score": 8.2
+  },
+  {
+    "ticker": "034730",
+    "company": "SK",
+    "detected_at": "2026-11-23T23:13:52.971975",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "주요 자회사인 SK하이닉스가 엔비디아 CEO 복귀발 AI 투자 기대감 및 필라델피아 반도체 지수 급등에 힘입어 반도체 섹터의 강한 상승세를 보였습니다. 지주회사인 SK는 핵심 자회사의 실적 개선 기대감에 따라 동반 급등한 것으로 분석됩니다.",
+    "theme": "지주사/AI반도체 밸류체인 (간접 수혜)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "041510",
+    "company": "에스엠",
+    "detected_at": "2026-11-23T23:14:39.267485",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관 순매수는 K-POP의 글로벌 팬덤 확장, 소속 아티스트의 활발한 활동 및 신규 그룹 데뷔, 그리고 플랫폼 사업 및 IP(지식재산권) 활용 수익 다변화 전략에 대한 긍정적 평가에 기반합니다.",
+    "theme": "K-POP, 엔터테인먼트, IP 사업, 팬덤 경제",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "007660",
+    "company": "이수페타시스",
+    "detected_at": "2026-11-23T23:15:22.215682",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 투자자들의 강한 매수세는 AI 데이터센터 구축 확대로 인한 고성능 PCB(인쇄회로기판) 수요 증가에 기인합니다. 특히 AI 가속기에 필수적인 고다층 기판 기술력을 보유하고 있어 시장의 주목을 받았습니다.",
+    "theme": "AI반도체, PCB (고다층 PCB, HBM 기판)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "009150",
+    "company": "삼성전기",
+    "detected_at": "2026-11-23T23:15:41.296066",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "당일 장중 기관 순매수 유입과 함께 전장용 및 서버용 고부가 MLCC(Multi-Layer Ceramic Capacitor)와 고성능 반도체 기판(FC-BGA)의 업황 회복 기대감이 주가를 견인했습니다.",
+    "theme": "반도체 부품, MLCC, FC-BGA, 전장부품",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "241710",
+    "company": "코스메카코리아",
+    "detected_at": "2026-11-23T23:14:39.267472",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관의 순매수는 화장품 ODM(제조자 개발생산) 산업의 성장세와 K-뷰티의 글로벌 확장에 대한 기대감, 그리고 동사의 북미 시장 성과 개선에 기인합니다.",
+    "theme": "K-뷰티, 화장품 ODM, 이커머스",
+    "watch_score": 7.8
+  },
+  {
+    "ticker": "253450",
+    "company": "스튜디오드래곤",
+    "detected_at": "2026-11-23T23:14:50.992290",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "한중 동시 방영 및 한한령 해제에 대한 기대감이 부각되며 콘텐츠 관련주로서 투자심리가 개선되어 급등했습니다.",
+    "theme": "K-콘텐츠 확장 (한한령 해제 수혜)",
+    "watch_score": 7.8
+  },
+  {
+    "ticker": "382260",
+    "company": "지투지바이오",
+    "detected_at": "2026-11-23T23:14:39.267479",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관 순매수는 동사의 마이크로플루이딕 기반 약물전달 플랫폼 기술력과 파이프라인(특히 치매 치료제 등)의 임상 진전에 대한 기대감에서 비롯되었습니다.",
+    "theme": "바이오, 약물전달 플랫폼, 치매 치료제",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "290510",
+    "company": "디케이티",
+    "detected_at": "2026-11-23T23:14:39.267483",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관 순매수는 동사의 연성인쇄회로기판(FPCB) 및 모듈 조립 기술이 스마트폰, 웨어러블 기기 등 IT 기기의 고도화에 필수적이며, 전장 사업으로의 확장에 대한 기대감에 근거합니다.",
+    "theme": "FPCB, 모듈 조립, 스마트폰 부품, 전장 부품",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "035420",
+    "company": "NAVER",
+    "detected_at": "2026-11-23T23:15:22.215676",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 투자자의 순매도에도 불구하고 급등한 것은 국내 기관 또는 개인 투자자의 매수세 유입, 혹은 단기적인 기술적 반등 가능성이 있습니다. 네이버의 새로운 AI 모델 출시 기대감이나 커머스/광고 부문의 실적 개선 전망이 주가를 견인했을 수 있습니다.",
+    "theme": "빅테크, 플랫폼, AI (하이퍼클로바X)",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "196170",
+    "company": "알테오젠",
+    "detected_at": "2026-11-23T23:15:22.215680",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "외국인 순매도에도 불구하고 급등한 것은 주요 파이프라인의 임상 결과 기대감이나 신약 기술 수출 관련 루머, 또는 공매도 숏커버링 등에 기인할 수 있습니다. 특히 바이오 섹터는 개별 이슈에 따라 급등락이 빈번합니다.",
+    "theme": "바이오, ADC (항체-약물접합체), 피하주사제형 플랫폼 기술",
+    "watch_score": 6.5
   }
 ]
