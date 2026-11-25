@@ -1,25 +1,5 @@
 [
   {
-    "ticker": "V",
-    "company": "비자",
-    "detected_at": "2026-11-18T19:51:32.004673",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "글로벌 소비 지출의 견고한 성장세, 전자상거래 확대로 인한 디지털 결제 거래량 증가, 그리고 효율적인 운영을 통한 수익성 개선 기대감이 주가 상승을 견인했습니다.",
-    "theme": "디지털 결제 (FinTech)",
-    "watch_score": 8.8
-  },
-  {
-    "ticker": "DIS",
-    "company": "The Walt Disney Company",
-    "detected_at": "2026-11-18T19:51:01.994129",
-    "source_bot": "surge",
-    "signal": "price_surge",
-    "summary": "52주 신고가를 재돌파하며 강한 매수세가 유입되었으며, 이는 스트리밍 서비스의 글로벌 확장 및 콘텐츠 강화 전략에 대한 시장의 긍정적 기대감을 반영합니다.",
-    "theme": "엔터테인먼트 & 미디어",
-    "watch_score": 7.8
-  },
-  {
     "ticker": "000660",
     "company": "SK하이닉스",
     "detected_at": "2026-11-19T19:52:10.595891",
@@ -688,5 +668,245 @@
     "summary": "사이버 보안 위협 증가 및 디지털 전환 가속화에 따른 기업 및 공공기관의 보안 솔루션 투자 확대 기대감과 함께, 정치 테마적 요소(안철수 관련주)가 복합적으로 작용하여 외국인 매수세가 유입된 것으로 보입니다.",
     "theme": "사이버 보안, 클라우드 보안, 정치 테마",
     "watch_score": 6.5
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-11-25T20:59:47.311248",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관의 차익 실현 매도에도 불구하고, HBM 시장의 독보적인 선두 주자로서 차세대 HBM 제품의 성공적인 양산과 AI 가속화에 따른 강력한 수요 기대감이 반영되어 시장의 매수세가 유입되며 급등했습니다.",
+    "theme": "AI반도체, HBM, 메모리반도체",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "PG",
+    "company": "The Procter & Gamble Company",
+    "detected_at": "2026-11-25T20:57:34.711530",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가를 다시 돌파하며 시장의 긍정적인 평가를 받고 있습니다. 소비재 분야의 글로벌 리더로서 스킨케어 및 헬스케어 제품군 확장으로 매출 성장세가 지속되고 있습니다.",
+    "theme": "소비재 (Consumer Staples)",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "263860",
+    "company": "지니언스",
+    "detected_at": "2026-11-25T20:58:38.953351",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가 달성. 네트워크 접근 제어(NAC) 및 OT/ICS 보안 솔루션의 시장 수요 확대 기대.",
+    "theme": "보안",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "192820",
+    "company": "코스맥스",
+    "detected_at": "2026-11-25T20:58:56.807851",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "한중 관계 개선과 연말 성수기 K뷰티 수출 호조 기대감, 내년 영업이익 31% 증가 전망에 따른 긍정적 투자 심리.",
+    "theme": "K뷰티, 화장품, ODM",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-11-25T20:59:47.311244",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관의 순매도에도 불구하고, AI 반도체(HBM, 파운드리) 부문의 강력한 성장 기대감과 글로벌 메모리 반도체 업황의 구조적 회복세가 맞물려 시장 전반의 매수 심리를 자극하며 급등한 것으로 분석됩니다.",
+    "theme": "AI반도체, HBM, 파운드리, 메모리반도체",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "007660",
+    "company": "이수페타시스",
+    "detected_at": "2026-11-25T20:59:47.311252",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관의 순매도에도 불구하고, AI 서버 및 고성능 컴퓨팅(HPC)용 고다층 인쇄회로기판(MLB)의 수요 폭증에 힘입어 급등했습니다. AI 가속기에 필수적인 기술력을 바탕으로 실적 성장에 대한 강한 기대감이 반영된 것으로 보입니다.",
+    "theme": "AI반도체, 고다층 PCB, 인쇄회로기판",
+    "watch_score": 8.2
+  },
+  {
+    "ticker": "COST",
+    "company": "Costco Wholesale",
+    "detected_at": "2026-11-25T20:57:43.144908",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가 돌파를 지속하며 투자 심리가 개선되었고, 회원제 기반의 안정적인 사업 모델과 전자상거래 부문 성장이 긍정적으로 작용했습니다.",
+    "theme": "프리미엄 회원제 유통 및 전자상거래 확장",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "LLY",
+    "company": "Eli Lilly and Company",
+    "detected_at": "2026-11-25T20:58:09.217628",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "다우 지수 강세 및 긍정적 실적 발표, 그리고 Healthcare & Biotech 섹터 상승세에 힘입어 +3.34% 상승했습니다.",
+    "theme": "바이오, 제약, 헬스케어",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "053800",
+    "company": "안랩",
+    "detected_at": "2026-11-25T20:58:38.953346",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가 달성. 사이버 보안 위협 증가 및 디지털 전환 가속화에 따른 보안 솔루션 수요 증가 기대.",
+    "theme": "보안",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "196170",
+    "company": "알테오젠",
+    "detected_at": "2026-11-25T20:59:24.021106",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "당일 장중 외국인 순매수 발생. 이는 피하주사(SC) 제형 변경 기술(ALT-B4)의 기술 수출 기대감 또는 기존 파트너사와의 계약 확대 가능성에 대한 긍정적 전망이 반영된 것으로 보입니다.",
+    "theme": "바이오 (ADC, SC 제형 변경 기술)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "005380",
+    "company": "현대차",
+    "detected_at": "2026-11-25T20:59:47.311250",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "우선주인 현대차2우B에 대한 기관 순매수가 확인된 가운데, 현대차는 전기차(EV) 전환 가속화, 소프트웨어 중심 자동차(SDV) 역량 강화, 그리고 로보틱스 및 미래 모빌리티 솔루션에 대한 기대감으로 급등했습니다. 견조한 실적과 주주가치 제고 노력도 긍정적입니다.",
+    "theme": "전기차, SDV, 미래 모빌리티, 로보틱스",
+    "watch_score": 7.8
+  },
+  {
+    "ticker": "DIS",
+    "company": "The Walt Disney Company",
+    "detected_at": "2026-11-25T20:57:05.871453",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가 돌파를 지속하며 시장의 긍정적인 투자 심리를 반영하고 있습니다. 이는 미디어 및 엔터테인먼트 분야에서의 강력한 콘텐츠 경쟁력과 스트리밍 서비스의 글로벌 확장 전략에 대한 기대감이 작용한 것으로 분석됩니다.",
+    "theme": "미디어/엔터테인먼트, 스트리밍, 빅테크",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "HEIA",
+    "company": "HEINEKEN",
+    "detected_at": "2026-11-25T20:57:28.858203",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가를 재돌파하며 강한 상승 모멘텀을 보였습니다. 아시아 시장에서의 매출 증가와 프리미엄 제품군 강화가 주요 성장 동력으로 작용했습니다.",
+    "theme": "주류 소비재",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "ABBV",
+    "company": "AbbVie",
+    "detected_at": "2026-11-25T20:57:50.717266",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가 돌파는 바이오제약 분야에서 면역학 및 종양학 치료제 개발에 주력하는 AbbVie의 강력한 제품 포트폴리오와 지속적인 신약 개발을 통한 매출 성장세에 대한 시장의 긍정적 기대를 반영합니다.",
+    "theme": "바이오/제약",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "unknown",
+    "company": "Space Exploration Technologies",
+    "detected_at": "2026-11-25T20:58:09.217624",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "메시지에서 직접적인 사유는 언급되지 않았으나, 전반적인 시장 불안정과 기술주 하락세 속에서 -5.38% 동반 하락한 것으로 추정됩니다.",
+    "theme": "우주 항공, 위성 인터넷, 차세대 모빌리티",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "251970",
+    "company": "펌텍코리아",
+    "detected_at": "2026-11-25T20:58:56.807855",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "K뷰티 주문 급증에 따른 화장품 용기 수요 증가 및 생산 증설로 대응하는 기대감, 4분기 영업이익 증가 전망과 증설 효과로 인한 실적 개선 기대.",
+    "theme": "K뷰티, 화장품 용기, 패키징",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "NVDA",
+    "company": "엔비디아",
+    "detected_at": "2026-11-25T20:58:09.217618",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "AI 관련 주식 전반의 하락과 필라델피아 반도체 지수 급락의 주요 원인으로 지목되며 -5.80% 하락했습니다.",
+    "theme": "AI 반도체, 빅테크",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "TSM",
+    "company": "Taiwan Semiconductor Manufacturing Company",
+    "detected_at": "2026-11-25T20:58:09.217626",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "엔비디아 등 반도체 전반의 하락과 필라델피아 반도체 지수 급락의 영향으로 -3.83% 하락했습니다.",
+    "theme": "파운드리, 시스템 반도체",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "006400",
+    "company": "삼성SDI",
+    "detected_at": "2026-11-25T20:59:24.021102",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "당일 장중 외국인 순매도 발생. 이는 전기차 시장 성장 둔화 우려 또는 2차전지 소재 가격 변동성에 대한 투자 심리 위축의 영향으로 보입니다.",
+    "theme": "2차전지 (전기차, ESS), 전자재료",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "090430",
+    "company": "아모레퍼시픽",
+    "detected_at": "2026-11-25T20:59:47.311254",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관의 순매수세에 힘입어, 중국 시장의 소비 회복 기대감과 K-뷰티의 글로벌 인기 재점화, 비용 효율화 노력에 따른 수익성 개선 가시화가 복합적으로 작용하며 급등했습니다. 북미 및 유럽 등 비중국 시장에서의 성장세도 긍정적입니다.",
+    "theme": "리오프닝, K-뷰티, 소비재, 중국 소비",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "009150",
+    "company": "삼성전기",
+    "detected_at": "2026-11-25T21:00:02.971470",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "IT 기기 수요 회복에 따른 MLCC(적층세라믹콘덴서) 업황 개선 기대감과 고성능 반도체 패키징 기판인 FC-BGA 사업의 성장이 부각되며 주가가 상승한 것으로 분석됩니다. AI 서버 및 전장용 부품 수요 증가도 긍정적인 영향을 미치고 있습니다.",
+    "theme": "MLCC, FC-BGA (반도체 기판), 전장 부품",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "180640",
+    "company": "한진칼",
+    "detected_at": "2026-11-25T20:58:38.953356",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가 달성. 국제선 여객 수요 회복 및 대한항공 지배구조 개편 기대감.",
+    "theme": "항공",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "012330",
+    "company": "현대모비스",
+    "detected_at": "2026-11-25T20:59:24.021104",
+    "source_bot": "surge",
+    "signal": "price_drop",
+    "summary": "당일 장중 외국인 순매도 발생. 이는 완성차 업황 둔화 우려, 글로벌 경쟁 심화 또는 자율주행 등 미래 모빌리티 투자 비용 증가에 대한 부담감으로 풀이됩니다.",
+    "theme": "자동차 부품, 자율주행, 전동화 시스템",
+    "watch_score": 6.5
+  },
+  {
+    "ticker": "089860",
+    "company": "롯데렌탈",
+    "detected_at": "2026-11-25T20:58:56.807858",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "예비·신혼부부 전용 장기렌터카 '마이카 허니문' 출시로 새로운 고객층 확보 기대감, 차량렌탈 시장에서의 경쟁력 강화 및 고객 맞춤형 서비스 확대 전망.",
+    "theme": "렌탈, 모빌리티, 자동차 렌탈",
+    "watch_score": 6.0
   }
 ]
