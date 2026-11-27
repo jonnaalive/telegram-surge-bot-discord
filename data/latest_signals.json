@@ -948,5 +948,175 @@
     "summary": "전기차 시장의 일시적 둔화 우려, 고금리 환경 지속에 따른 소비 심리 위축, 그리고 글로벌 경제 불확실성이 기관의 차익 실현 및 매도세로 작용했을 가능성이 있습니다.",
     "theme": "자동차, 전기차, 모빌리티",
     "watch_score": 6.0
+  },
+  {
+    "ticker": "V",
+    "company": "비자 (Visa)",
+    "detected_at": "2026-11-27T20:34:24.425525",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 경제 회복과 소비 증가세에 힘입어 디지털 결제 및 해외 송금 거래량이 예상치를 상회하며 실적 기대감이 증폭된 것으로 판단됩니다.",
+    "theme": "디지털 결제 / 핀테크",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "000660",
+    "company": "SK하이닉스",
+    "detected_at": "2026-11-27T20:34:56.792643",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "AI 기술 발전과 함께 고대역폭 메모리(HBM) 수요가 폭발적으로 증가하고 있으며, SK하이닉스는 HBM 시장의 선두 주자로서 강력한 성장 기대감을 받고 있습니다. 케이씨와의 지능형 가스 공급장치 특허 공동 출원 등 기술력 강화 노력도 긍정적입니다.",
+    "theme": "AI 반도체, 메모리 반도체, HBM",
+    "watch_score": 9.0
+  },
+  {
+    "ticker": "COST",
+    "company": "Costco Wholesale",
+    "detected_at": "2026-11-27T20:34:00.716015",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "역사적 신고가를 돌파하며 강세를 이어가고 있으며, 안정적인 회원제 기반 수익 모델과 전자상거래 부문 확장이 시장에서 긍정적으로 평가받고 있습니다.",
+    "theme": "소비재 유통, 회원제 리테일, 전자상거래",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "036710",
+    "company": "심텍홀딩스",
+    "detected_at": "2026-11-27T20:34:56.792639",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "자회사 심텍의 실적 턴어라운드와 AI 기판 수요 폭증에 따른 긍정적 전망이 나오고 있습니다. 반도체 기판 테마에 대한 매수세 유입으로 투자자 관심이 증가하고 있습니다.",
+    "theme": "AI 반도체, 반도체 기판",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "005930",
+    "company": "삼성전자",
+    "detected_at": "2026-11-27T20:35:17.410399",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "글로벌 반도체 업황 회복과 AI 가속화에 따른 고대역폭 메모리(HBM) 및 파운드리 사업 성장 기대감이 주가를 견인한 것으로 분석됩니다.",
+    "theme": "AI반도체, 메모리반도체, 파운드리, 빅테크",
+    "watch_score": 8.5
+  },
+  {
+    "ticker": "053800",
+    "company": "안랩",
+    "detected_at": "2026-11-27T20:34:56.792635",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "잇단 해킹 사고로 인해 사이버 보안 규제 강화에 대한 기대감이 커지고 있으며, 글로벌 통합보안 기업으로서의 강력한 시장 영향력이 부각되고 있습니다.",
+    "theme": "사이버 보안, 제로트러스트 보안",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "029460",
+    "company": "케이씨",
+    "detected_at": "2026-11-27T20:34:56.792640",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "SK하이닉스와의 '지능형 가스 공급장치' 특허 공동 출원 소식으로 반도체 관련 기술력 강화 기대감이 높아지고 있습니다. 자산주에서 반도체 성장주로의 변신에 따른 NAV(순자산가치) 할인 축소 기대가 반영되고 있습니다.",
+    "theme": "반도체 장비, AI 반도체 (간접)",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "263860",
+    "company": "지니언스",
+    "detected_at": "2026-11-27T20:34:56.792641",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "금융권 보안 규제 강화에 따른 제로트러스트 보안 솔루션 수요 증가가 기대됩니다. 3분기 영업이익이 274% 증가하는 등 실적 개선세가 뚜렷하게 나타나고 있습니다.",
+    "theme": "사이버 보안, 제로트러스트 보안",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "068270",
+    "company": "셀트리온",
+    "detected_at": "2026-11-27T20:35:52.116817",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "2026년 기준, 바이오시밀러 신제품의 미국 및 유럽 시장 침투 가속화와 신약 개발 파이프라인의 긍정적인 임상 결과 기대감이 외국인 순매수를 유입하며 주가를 끌어올린 것으로 분석됩니다. 특히 블록버스터 오리지널 의약품의 특허 만료에 따른 시장 확대가 긍정적인 영향을 미쳤습니다.",
+    "theme": "바이오시밀러, 바이오신약, 헬스케어",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "006400",
+    "company": "삼성SDI",
+    "detected_at": "2026-11-27T20:36:13.946177",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관의 적극적인 순매수에 힘입어 상승한 것으로 보이며, 프리미엄 전기차 및 ESS향 배터리 판매 호조와 전고체 배터리 개발 진전 기대감이 주가에 긍정적인 영향을 미친 것으로 추정됩니다.",
+    "theme": "2차전지, 전기차 배터리, ESS (에너지 저장장치), 전고체 배터리",
+    "watch_score": 8.0
+  },
+  {
+    "ticker": "009150",
+    "company": "삼성전기",
+    "detected_at": "2026-11-27T20:35:17.410407",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "MLCC(적층세라믹콘덴서) 업황 회복 및 AI 서버향 고부가 반도체 기판(FC-BGA)의 수요 증가 기대감이 주가를 끌어올린 것으로 분석됩니다.",
+    "theme": "전자부품, AI서버 부품, MLCC, 반도체 기판 (FC-BGA)",
+    "watch_score": 7.8
+  },
+  {
+    "ticker": "DIS",
+    "company": "The Walt Disney Company",
+    "detected_at": "2026-11-27T20:34:09.589546",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "52주 신고가 돌파를 지속하며 견고한 상승 흐름을 보였고, 핵심 성장 동력인 스트리밍 서비스의 글로벌 확장 및 콘텐츠 강화 전략에 대한 기대감이 반영되었습니다.",
+    "theme": "미디어/엔터테인먼트 (스트리밍)",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "unknown",
+    "company": "인제니아테라퓨틱스(Reg.S)",
+    "detected_at": "2026-11-27T20:34:56.792630",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "'IGT-427'의 임상 3상 적응증이 5개로 확대되며 글로벌 기술이전 성과에 대한 기대감이 높아지고 있습니다. TIE2 플랫폼의 확장성 검증을 통해 안과를 넘어 다양한 질환으로의 적용 가능성이 증가할 것으로 전망됩니다.",
+    "theme": "바이오, 신약 개발",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "012330",
+    "company": "현대모비스",
+    "detected_at": "2026-11-27T20:35:17.410406",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "전기차 및 자율주행 등 미래 모빌리티 핵심 부품의 수주 증가와 전동화 부문 실적 개선 기대감, 그리고 그룹사의 해외 시장 판매 호조가 긍정적으로 작용한 것으로 해석됩니다.",
+    "theme": "미래차/모빌리티, 전장부품, 자율주행",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "326030",
+    "company": "SK바이오팜",
+    "detected_at": "2026-11-27T20:36:13.946178",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "기관 순매수와 함께 뇌전증 신약 '세노바메이트'의 글로벌 시장 침투 가속화, 파이프라인 확장 기대감 등 긍정적인 회사 소식이 주가 상승을 견인한 것으로 보입니다.",
+    "theme": "바이오, 제약, 중추신경계 (CNS) 신약 개발",
+    "watch_score": 7.5
+  },
+  {
+    "ticker": "159950",
+    "company": "디케이티",
+    "detected_at": "2026-11-27T20:34:56.792638",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "휴머노이드 로봇 공급망 확대와 관련된 기대감이 높아지고 있으며, ESS(에너지 저장 시스템) 및 전장 부문에서의 실적 성장 또한 기대되고 있습니다.",
+    "theme": "로봇, ESS, 전장 부품",
+    "watch_score": 7.0
+  },
+  {
+    "ticker": "192820",
+    "company": "코스맥스",
+    "detected_at": "2026-11-27T20:35:33.578602",
+    "source_bot": "surge",
+    "signal": "price_surge",
+    "summary": "장중 기관 순매도에도 불구하고, K-뷰티의 글로벌 인기 지속과 북미 시장을 중심으로 한 해외 ODM 수주 확대 기대감으로 시장의 긍정적 평가를 받으며 상승했습니다.",
+    "theme": "K-뷰티, 화장품 ODM/OEM, 리오프닝",
+    "watch_score": 6.5
   }
 ]
